@@ -742,61 +742,23 @@ BFBFFFBRRR
 FBBFFBBRLL
 FBFFFFBRRL`;
 
-let boardingPasses = input.split("\n");
+const getSeatId = (code) => {
+    const row = code.substring(0,7).replace(/B/g, "1").replace(/F/g, "0");
+    const column = code.substring(7).replace(/R/g, "1").replace(/L/g, "0");
 
-boardingPasses = boardingPasses.map(boardingPass => {
-    return {
-        boardingPass: boardingPass,
-        column: 0,
-        row: 0,
-        seatId: 0
-    }
-});
+    return parseInt(row,2) * 8 + parseInt(column,2);
+}
 
-let seatIds = [];
+const seatIds = input
+    .split("\n")
+    .map(boardingPass => getSeatId(boardingPass))
+    .sort((a,b) => a-b);
 
-boardingPasses.forEach(boardingPass => {
-    let rowString = boardingPass.boardingPass.substring(0,7);
-    let range = [0, 127];
-    rowString.split("").forEach(letter => {
-        let half = Math.round((range[0] + range[1])/2);
-
-        if(letter === "F") {
-            range[1] = half - 1;
-        
-        } else {
-            range[0] = half;
-        }
-    });
-
-    boardingPass.row = range[0];
-
-    range = [0, 7];
-    let columnString = boardingPass.boardingPass.substring(7);
-    columnString.split("").forEach(letter => {
-        let half = Math.round((range[0] + range[1])/2);
-
-        if(letter === "L") {
-            range[1] = half - 1;
-        
-        } else {
-            range[0] = half;
-        }
-    });
-
-    boardingPass.column = range[0];
-
-    boardingPass.seatId = (boardingPass.row * 8) + boardingPass.column;
-    seatIds.push(boardingPass.seatId);
-});
-
-
-seatIds = seatIds.sort((a,b) => a-b);
 console.log(`Highest seat ID: ${seatIds[seatIds.length - 1]}`);
 
 const missingSeats = [];
 for(let i = seatIds[0]; i < seatIds[seatIds.length - 1]; i += 1) {
-    if(!seatIds.includes(i)) {
+    if(!seatIds.includes(i) && seatIds.includes(i+1) && seatIds.includes(i-1)) {
         missingSeats.push(i);
     }
 }
