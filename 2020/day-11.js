@@ -19,18 +19,8 @@ const checkDirectlyAdjacent = (state, y, x) => {
 
 const checkAdjacentInSight = (state, y, x) => {
     let occupied = 0;
-
-    let directions = [
-        [-1, -1], 
-        [-1, 0],
-        [-1, 1],
-        [0, -1],
-        [0, 1],
-        [1, -1],
-        [1, 0],
-        [1, 1]
-    ];
-
+    let directions = [[-1, -1], [-1, 0],[-1, 1],[0, -1],[0, 1],[1, -1],[1, 0],[1, 1]];
+    
     directions.forEach(direction => {
         let i = y + direction[0];
         let j = x + direction[1];
@@ -52,47 +42,54 @@ const checkAdjacentInSight = (state, y, x) => {
     return occupied;
 }
 
-let state = inputs["day-11"]
-    .split("\n")
-    .map(row => row.split(""));
-
-let changes;
-let occupied = 0;
-do {
-    changes = 0;
-    let newState = state.map(function(arr) {
-        return arr.slice();
-    });
-
-    for(let y = 0; y < state.length; y += 1) {
-        for(let x = 0; x < state[0].length; x += 1) {
-            if(state[y][x] === ".") { continue; }
+const solve = (state, part) => {
+    let changes;
     
-            if(state[y][x] === "L") {
-                occupied = checkAdjacentInSight(state, y, x);
-                if(occupied === 0) {
+    do {
+        changes = 0;
+        let newState = state.map(function(arr) {
+            return arr.slice();
+        });
+    
+        for(let y = 0; y < state.length; y += 1) {
+            for(let x = 0; x < state[0].length; x += 1) {
+                if(state[y][x] === ".") { continue; }
+        
+                let occupied = (part === 1)
+                    ? checkDirectlyAdjacent(state, y, x)
+                    : checkAdjacentInSight(state, y, x);
+
+                if(occupied === 0 && state[y][x] === "L") {
                     newState[y][x] = "#";
                     changes += 1;
                 }
-            } else if(state[y][x] === "#") {
-                occupied = checkAdjacentInSight(state, y, x);
-                if(occupied > 4) {
+
+                let threshold = (part === 1) ? 3 : 4;
+                if(occupied > threshold && state[y][x] === "#") {
                     newState[y][x] = "L";
                     changes += 1;
                 }
             }
         }
-    }
+    
+        state = newState;
+    
+    } while(changes > 0);
 
-    state = newState;
+    return state;
+}
 
-} while(changes > 0);
+const countOccupied = (state) => {
+    return state.reduce((occupiedInTotal, row) => {
+        return occupiedInTotal += row.reduce((occupiedInRow, seat) => {
+            return occupiedInRow += (seat === "#") ? 1 : 0;
+        }, 0);
+    }, 0);
+}
 
-occupied = 0;
-state.forEach(row => {
-    row.forEach(seat => {
-        if(seat === "#") { occupied += 1; }
-    });
-});
+let state = inputs["day-11"]
+    .split("\n")
+    .map(row => row.split(""));
 
-console.log(occupied);
+console.log("Part 1: " + countOccupied(solve(state, 1)));
+console.log("Part 2: " + countOccupied(solve(state, 2)));
