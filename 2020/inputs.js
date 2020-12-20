@@ -8999,7 +8999,7 @@ mem[61131] = 337545
 mem[16774] = 2030
 mem[6637] = 5249`,
 
-    "day-16": `departure location: 47-691 or 713-954
+"day-16": `departure location: 47-691 or 713-954
 departure station: 44-776 or 799-969
 departure platform: 37-603 or 627-953
 departure track: 41-240 or 259-955
@@ -9273,5 +9273,2559 @@ nearby tickets:
 ##.#.###
 .######.
 ###.####
-######.#`
+######.#`,
+
+    "day-18": `6 * ((4 * 8 + 4) + (3 * 5 + 3 + 3 * 7 * 5)) + 7 + (9 * (6 + 9 * 7 + 2 * 6 * 6)) + 2
+6 + 6 * (8 + 9 * 6 * 7 + 4 * 8) * (3 * 2 + 8 * (5 * 8 + 6 * 3 * 7 + 4))
+((2 + 5 * 5 + 8 + 3 + 4) + 8 * 7 * 6) * 9 * 8 + 2
+(2 + 7 * (3 + 5 * 2 + 3 + 6) * (4 * 6 + 8 * 3 * 2 + 7)) + 3 * ((2 + 8 + 6) * 8 + 9 * 6 * 6) + 5 + 6 + 5
+((5 * 8 * 4 + 6 * 9) + 2 * 7 + 2 + (6 * 7 + 6)) + 6 + 6 * 9 * (2 * 8 * (3 + 7) * 9) * 7
+6 * 4 + 8 + (2 * (4 * 3 * 7 * 4) * 3)
+6 + 8 + ((3 + 7 + 4 + 9 + 6) * 7 + 9 + 2 * 4 * 6) * (3 + 6 * 5 * 2 * 4) * 3 + 9
+(5 * 5 * 5 * 7 + 9) * 7 * 5
+9 + 5 + (2 + (2 * 3 + 5 * 9) * 6) * 2 * (2 * (4 + 5 + 2 + 9 + 3))
+8 + 7 + (2 + 4 + 5 + 9) * (7 + 4) * 7
+9 * (3 + 9 + 5 + 7) * 5 + 6
+2 + 3 + 4
+8 * 4
+6 * 4 * (2 * 7 * 7 * 2) * 4
+2 * (6 + 5) + 5
+(5 + 6 * 2 * 3) * (3 + 8 + 4 + 2 + 6) * 8
+((7 + 7 * 3 + 3 + 7) * 3 + 7 + 2 * (3 * 8 * 2 + 2 * 7 * 4) + 9) + 4 + 3 * 7
+6 + 8 + ((4 + 9 + 5 + 9 + 5 + 6) * 6 * (3 * 5 + 2 * 8) * 9 * 5 + 9)
+(4 * 2) + 7 + 9 + 8 + ((2 * 9 * 4 + 3 + 7 + 8) + 7 * 9)
+2 * 3 + 3 * 8
+9 * 6 * 3 * 8 * ((8 * 4 * 2 * 6) + 3 * 8)
+7 * 8 + 5 * 8 * 9
+7 * ((3 * 3 + 4 + 4) * 3) + 8 + 7 + 2 * 8
+2 * (9 + 9 * (8 * 9))
+(8 + 6 + 9 * (5 + 5 + 5) * 6 * 9) * ((2 + 7 * 6 + 2) + 4 * 9 * 8 * (5 * 2 + 5 + 2 + 5))
+(6 * 9) + 5 * 8 * 8 + 8 * (7 + 4 + 6 * (9 * 9) + 8)
+2 * 9 + 3 * ((3 * 7 * 4 * 3 + 3 * 8) * (8 + 6 + 3 * 8 + 6) + 5 + 3 + 7 + 5) + 9 * (3 + 3 + 6 + 4)
+((9 + 2 * 7 * 8 + 7) + 3 * (6 + 9 * 3)) + 7
+4 * (8 * (6 + 3 * 4))
+4 + 3 + 7 + 4 + 2 * 7
+7 * 8 * 5 + 7
+(7 * 9) * (2 * 9 + 5 + (5 + 2)) + ((9 + 7 + 9 * 7 * 4 + 8) * (6 * 7 + 4) + 3 * 7 + 4 * 8)
+(8 * 6 * 9 * 7 + 2 * 2) * 8 * 2 * 9 + (8 + 9 * 7 * 8 * 7) + (5 * 5)
+9 * 4 + 8 + (8 * 6 * 4 + (5 * 6 * 3 * 6 + 3) + 5) * 9 + 4
+7 * (7 * 8 * 9) * 2
+(3 + 3 + (8 + 5 * 6) + 7 + (9 + 8 + 2 * 3 * 9 + 2)) + (3 + 4 + (9 * 5 * 2 + 2 + 8) + (4 * 3 + 4)) + 8 * 6 * ((9 + 8) + 9 * 3)
+3 + 2 + 7
+(6 + 6 + 6 * 3 + (5 + 5 * 4)) * (3 * (9 + 2 + 4 * 5 * 3 * 3)) + (3 + 6 + 6 + 5 + 6 * 8)
+(9 + (9 * 7 + 7 * 4 + 2) + (8 * 8) + 5 + 9 * 2) * 5 * (5 * 9 * 5 + 8 * 6)
+2 + 5 + (2 + 2 + (7 * 2 * 7)) * (2 * (6 * 5 + 9 * 4)) * 4
+5 + 7
+7 + 5 * 4 * ((8 + 6 + 9 * 7 * 7 + 6) + 3 + 3 + 5) * (8 + (4 * 2 * 9) * 5 * 6 + (2 * 8 + 2 * 7)) + 8
+6 * 7 * (2 * 3) * 3 * 3
+6 * 3 + 8 * (4 * 7 + 9) + 4 * 7
+4 + 2 + ((3 + 7) + (4 + 9))
+4 + 8 * 6 * 5 * 7 + (7 * (8 + 5 + 5 + 2 + 3 * 5) * (6 + 3) + (2 * 3 * 5 + 4))
+4 + (7 * 7 * (5 * 4 + 8) * 2) + 8 * 3
+(4 * 9 * 8 * 9 * (6 * 7 + 2 * 5 + 6)) * ((4 + 2 * 5 + 9 * 9) * 3 + 8 * 2) + 9 + 9 + 2
+4 * 5 + 9 * (4 * (8 + 8 * 5))
+7 + (7 * 5 * (5 * 6) + 2 * 2) + (6 * 3 * (7 * 9 + 2 * 6)) + 5 * 7 + ((7 * 4 * 4 + 8 * 8 * 6) * (8 * 8 * 7 + 9 * 3 + 2) * 2 * 5)
+(8 + 3 * 6 * 6 * 2 + 4) + 4
+9 * 8 * (9 + 8)
+((9 * 4 + 5 + 5) + 2 + 8 * 6) * 6 * 5 * 9
+(7 * 3) + 3 * 8 * 3 * 7 + 8
+8 + (9 * 7 * (6 + 2)) * 9
+((6 + 9 * 2 + 7 + 4) * 5) * 7 + (6 + 3 * 9 + 5 + 9 * 4) + (3 * 6 * 3 + 8) + ((4 * 3 + 2 + 2) + 9 * 5 + 5 * 5)
+(8 * (8 * 6 + 2) * 4) * 4 * 6
+2 + 9 + (3 * 9 * 4 + (7 * 7)) + 7
+(2 * 3 + 2) + ((8 + 4 + 6 * 7 * 8 * 3) * 8 + (3 + 2 + 3 * 8 * 6 + 3) + 8)
+2 * (9 * 7 * (4 + 5 + 8)) + (3 + (7 + 2 * 6 + 2) + 7 * 2 * 9 * 7) + 2 * 4 * 3
+5 + ((9 * 6 * 6) + (6 * 6 + 5) * 2) * 9 + 7 * ((8 * 8 * 2 + 2) + (4 * 9)) + (7 + 2 * 4 + 7 + 6)
+((7 * 9 + 8 * 6 * 4 + 8) + (9 + 9 + 6 * 4) + 6) * 3 * 8
+2 * 5 + 6 + 7 * (6 * (7 * 5 + 2 * 2) + 7 * 8)
+4 * (4 * 4 * 2 + 3 * 9 + 7) * 7 + 6
+7 + 3 * 4 + 2 * 8
+6 + 3 * 8
+5 + ((6 + 2 * 3 + 4) + 8 + 4 + 5 * 6 * 6)
+(2 + (6 + 3 + 4 + 9) * (7 + 3 + 2 + 7 * 9) + (2 * 2 * 7 + 9 * 7) + 4 + 4) + ((5 + 5) + 4 + 5 + 2 * 2) + 2 + 4 * 6
+(5 * (4 + 4 * 5 * 7 + 9 + 6) * 9) * 6 + 2
+(6 + 2 + (8 * 9 + 2) + 8 + 5 + (7 + 2)) * 6
+(9 * 3 * (8 * 7 + 6 + 7 * 3)) + 3
+(4 + 4 + 2 * 9 + (5 * 9 * 3 + 7) + 9) * 2 + 6
+4 * ((9 * 3 + 9) + 4) * 9
+(5 + 3 + 4) * ((5 + 4 + 3 * 6) * 7 * 2 * 6 * 8) + 3 * 9 + 7 + 5
+(3 + 4 * 8 + 8 + 3) * 4 * 7 * ((7 + 8 * 3 + 7 * 7 * 8) + 2 + 4 + (7 + 6 * 4) + 2 * 6)
+4 * (8 + 2 * 8) * 6 * 7 * 9 + 5
+5 + 3 + 6 + 8 * (2 + (4 * 5 * 2 + 9 * 9))
+(3 + 6 + 5) * 2 * 9 + 3
+(7 * 5 * 2 * 2 + 5) * 6
+7 * 8 * (3 * 5 + (4 * 7) + 6) + 6 + (5 * (7 * 3) * 3 * 5) * 6
+(8 + (6 + 2 * 2 * 6) + 3 + 9 + 5) * 3 + 6 * 7 + 4
+(5 * 8 + (8 + 6 * 7 * 7 * 3)) + (6 + 7 + (5 + 7 + 7 + 4 * 8) + 8 * 5 + 2) * (5 + (5 * 4 * 9 + 7 * 9 * 6))
+9 * (9 * 2) * 2 * 5
+2 + 3 * 8 * 6 + 7 * 2
+4 + 2 * 6 * 5 * 6 + (4 + 7 * 6 * (2 * 7 + 5 + 6 * 7 + 6))
+((4 * 6 + 5 + 5) * 5 * 4 + 8 * 8) * 3 + 5
+8 * 5 * 5 * (3 * 8 + 3 + 5 + 9 * (5 + 4 * 5 + 3 * 2))
+8 + 4 * 7 * 3 * 4
+(9 + 4 * (5 * 7) + 6 * 8 * (8 + 7 + 9)) + (2 * (4 + 8 * 3)) * 7
+((6 * 6 + 3 + 9 + 6) + 3) + ((9 + 2) + 6 + (2 + 7)) * 5 * ((3 + 2) + 9 * 2)
+(6 * 7) + 8
+(5 * 3 + 8 + (9 * 4 * 4 * 3 * 9 + 2) * 6) * 8 + 4
+8 * 7 + (6 * 8 + (8 + 2 + 8 * 3 * 9))
+8 * (3 + (8 * 6)) + (2 + 5 + 8 * 3 + 8 * 9)
+((9 * 3 + 9) + 8 + 7 * 9) + 5 * (4 + (6 * 7 * 8) * 4 + (5 + 6 + 6 * 2) * 3 * 5) + 8 + 5
+4 + (2 + 3 + 5 + (8 * 2 + 7) + 3) * 8 * 3 * 3 * 2
+5 + 2 * 6 + (5 + (2 * 5 * 7 + 6) * 5 * 4 + 4) + (2 + 5 * 9 * (2 * 5 * 2 + 5 * 2)) * 6
+9 + 5 + 5 + ((7 * 4) * 6) + 3
+(2 * 4 + 6 + (6 * 5 * 6 + 5 * 3 * 5) + 4 * 4) * (3 + 5 + 8 + 3 + (5 * 8 * 4 + 4 * 6 + 5) * 8) * 4 + (3 + 6 + 9 + (4 + 6 * 7 * 2 + 5) + (3 + 2 + 8 * 9 * 9))
+(2 + 9 * 7) + (2 * 4 * (7 + 3 * 2))
+(8 * 4 + 3 * 3) * 9 * 8
+(4 * 3) * 6 * 5 * 7 + (4 + 7 + 4 * 6 * 9 * 6)
+(7 + 4 + 9 + 7) * 3 * (2 * (7 * 5 * 7) * 5 + 9 * 4 + 3)
+2 * 4 * 9 * 7 + (3 * 6 * 5 * 7 + 4)
+5 + 5 * 2 * 3
+5 + 6 * (8 * 9 + (4 + 7 * 6 + 5 * 8 + 8) + 9 * (2 + 7 + 6 + 5)) + (4 * 4 + 7 * 3) + 6
+5 * 8 + 6 + (9 + 3 + (5 + 3 + 2 + 9))
+4 * (7 * 2 * 6 * 2 + 6 * (5 + 3)) * (2 + 5 * 5 * 3) + (7 * 7 + (7 + 6) * 5 * 6) * (4 + (3 + 4) + 4 * 5 * (5 + 4 * 9 * 7 * 9 * 6))
+(5 * 8 + 3 * 3 + (3 + 8)) * 9 + 3 + 4 + 4
+2 + 5 * 2 * 5 * 8 + 6
+4 * 7 * 5 + ((2 + 3 + 9 * 4) + 4 * (4 * 2 * 4 + 9 * 7)) * 6
+(4 * 5 * 3 * 5) * 3 + 8 * 4
+7 + 4 + (6 * (4 * 4 + 7)) + 5 + 9 * 3
+(3 * 8 * 7 * (2 + 6) + (8 * 9 + 8 + 3 * 2) + 6) * 2 + 3 * 8
+(6 + 9 * 4 * 4 * 9 + (4 + 7 + 7 * 7)) + (4 * 3 * (6 * 7 + 4 + 5 + 8) * 7) * ((5 * 7 * 5 * 9) + 4 + 4 + 8) + 3
+8 * 5 * (5 * 8) * 5 + 8 + 9
+3 + 7 + (5 + 4) + ((9 * 8 * 4 + 7 + 7) + 6) * (8 + 8 + (4 * 4 + 8 + 4 + 8) * 8 + 2 + (4 * 7 * 4))
+9 * 3 * 5 + (3 + 3 + (4 + 8 + 6 + 4 + 9 * 2) + 7 * 7)
+((9 * 7 + 8 * 6) + 3 + 2 + 8 + (6 * 6 + 7 * 4) * 6) * 4 + ((8 + 6 * 4 * 7 + 3 + 6) * 6 + 3 * 6 * (5 + 8 + 8 * 6 + 2 + 3)) + 9 + 9 + 6
+7 + 3 + 8 + (9 * 2 + (3 * 3 + 6 + 4)) + (6 + 7 * 3 * 2 * 9 + (4 + 5 + 6 + 9 + 2 + 4))
+(7 + 5 + 6) * 2 * 7 * (3 * 5)
+(6 * 5 * 9 * 4) * 9 * 2 + 3 * 7 * 5
+8 * (2 + (4 + 8 * 5 * 7) * 3)
+(6 + 2 + 8 * 3 * 8) + ((9 + 8 + 8 + 9 * 3) * (3 * 4) * 2 * 4 + 6 + 5) * 5 * 6 * 4 + 7
+(2 * 6) + (7 + 8 + 3)
+5 + 4 * 7 * 3 * (3 + 3 + (2 + 3 * 8 + 4) + 9 + 3 * 3) + 3
+9 * ((8 * 5 * 8 + 7 + 2) * (6 + 2 * 9) + 2) * 7
+(6 * 8 * 8 * (4 + 5 + 3 + 4)) * 9 + (2 + 4 + 2 + 8)
+(8 + (2 + 3 * 7) * 5 * 6 * 3) * 5 * 7 + (7 + (7 * 8 * 4 * 5) * 5 * 3 * 4 * 8) + ((2 + 6 * 9 * 2 + 8) + 7 * (5 * 8 * 5 + 6 + 9)) * 2
+4 * 6 + 3 + (5 + 5) + 2
+5 + (7 + 2) + 7 * 7 + (2 + 5) * 3
+(9 + 4 * 7 + (7 * 2 + 8 * 8 * 8)) + 2 * (7 * 9 + 7 + 6) + 5 + 5
+9 * 9 + (8 + (8 + 7 + 8 + 2 + 8 + 5) + 6 * 2 * 5 * 6) + 3
+6 + (9 + 5 * 3 + 6 + 8) + 3
+2 * 4 * 2 + 9 + 3 * ((8 * 6 * 9 + 7 * 6) * 3 * 2 + 9 + 9)
+6 * 3 + (4 + 8 + (3 + 5 + 5) * 6 * 2 * 3) + 6 * 5 + 9
+(7 * 8 + 9) * 7 * (6 + 5) * (4 + 8 * 5 * 6 * 9) * 4
+5 * (7 * 3 + 3 * 4 * (2 * 3 * 9))
+6 + 6 * 3 + 7 * (4 + 4 * 5) * (6 + 2)
+7 + 8 * 9 * 3 * 8 * 2
+3 * 2
+8 * ((3 * 4 * 3) * 9 + 9 + 9) * 2 * 4 + 6 * 4
+3 + (4 + 5 + 5) + 4 + 6
+(4 * 7 * 5 + 8 * 7) * 4 * (6 * 6 + 4) * 4 + (2 + 7 + 2 + 8 * 6)
+(2 + 2 + 8 + 9 * 9) + (9 * 4 * 2 * 9) * 9
+(8 * (2 * 7 + 9) * 4) * 4 * 5 + 2 * 8
+((7 + 8 + 6) + (9 + 8 * 7) + 6 * (5 * 8)) * 4
+4 + (3 + (5 + 2 * 3 * 3 * 3) * 2) * (7 + 2)
+5 + (5 + 3 * 4 * 6 + 6)
+(4 + 4) + 7 + 8 + 6 * 5
+5 * (6 + (6 + 6 * 2 + 9) + 8 * (2 * 6)) * 6 * 9
+(4 + 7 * 6 * 9) + 6 * (9 * 7) * 4 * ((6 + 7) + 5 + 9 * 5 * 5 + 2)
+(4 + (6 + 8 + 4 * 9) * 8 + (5 + 3 + 7)) + 2 * 3 * 9 * 3
+9 * 9 + 9 + (4 * 9 * 3 + 4) * 9 * 6
+2 * (6 + (8 + 7 + 6) * 9 * 6 * (2 * 8 * 3)) * ((9 * 7 + 6 * 3) * 8 * 5 + 8 + (7 + 7 + 7 * 5) * 5) + 2
+6 + (7 + 8 * (5 + 4 * 3 * 2 + 2)) + (4 + 8 + 5 + 7 + 7 * (7 * 6 + 2 * 8 * 6 + 4)) * (6 * 9) * 9 * 9
+7 * (5 * 7 * 5 * (7 + 7 + 9 + 5 * 2) * 3 * 3) * (4 * 9)
+7 + 2 * 9
+(9 + (6 + 3)) * 3 + 9 + 3 * 9 * (8 * (4 + 3 * 9))
+7 + 2 * 4 * 5 * (6 * 5 + 3 * 3 * (5 * 8 + 7 * 5) * 7)
+6 * (6 * 6 + 5 * 2) + 8 * ((4 + 2 * 7 + 9 + 9) * 4 + 5 * 5 * 2) * 3
+3 * ((7 * 2) * 2 + 5 + 3 * 2 + 5)
+9 * (4 + 3 * 6 * 4 * 6 + 3) + 7
+2 * 8 + (2 + 9) * 8 + (9 + (5 * 8) + 2) * 6
+(4 + (2 * 7 * 8 * 5 * 9) + 6 + (8 + 2 * 9 + 6) * 5 + 8) + 7 + 7 + 7
+8 + (3 + 7 + 5 * 8) + 2 * (4 * 3)
+9 + (2 * 5 * 2) * (2 + 4 + (4 + 4 * 7 * 9) * 6 + (8 + 9 * 3)) + ((2 * 7 * 8 + 5 * 5 + 5) * 6 * 9 + 5 * 9) + 2
+7 + (4 + (2 * 4 + 6 + 3 + 8 + 5) + 2 * 5 + 3)
+(7 + 4 + 9 * 7 + 2 + (5 * 8 * 8 + 2)) + 2 + 7
+8 * (8 + 4)
+5 * (3 + 8 * 4)
+8 + (5 * 4 + 3 + 5)
+3 * 5 * 9 * 5 + 8 + 8
+2 * 4 * ((3 * 3 * 7 * 2 + 7) + 9) * 4 + 3
+9 + 8 + (4 + (6 * 4 * 3 * 8) * (8 + 6 * 3) + 7)
+3 * (3 + 6 * 7 + 8 + 4 + (5 * 4 + 3 + 4 * 6)) * 4 + 3 + (5 * 3 + (8 * 8 + 6 * 3 + 6 * 9) + 2 + 9)
+(5 + 5 * 7) + 3 * 2 + (8 * 4 + 3 + 4)
+(7 * 8 * (2 + 6 + 8) + 6) * 5
+7 * 8 + ((6 * 9) * 5 * 5 * 9 + 9) + (7 + 8 + 2)
+8 * 4 * 4 * (7 + (5 * 4 * 4) + 3 * (4 + 8 * 7) * 2 * 9) * (4 + 5) * 6
+(2 * 3 + (3 * 4 + 7 + 5 + 2 + 2) + 7) + 7
+(6 * (8 + 6 * 3 + 7 * 4 + 7) + 2 + (5 + 2 + 2 + 5 + 4 * 7) * 6 + (2 + 4 * 7)) * 3 + 7
+3 * (2 * 8 * 7 + 6) * 8 + 7 * ((7 + 2 + 3 + 2) * 8 + (3 * 2 + 7 * 7 + 8 + 3) * 8 + 3 + 9) * 2
+(9 * 2 + 4) + 4 * (7 * 2 * 5 * 3 * 6)
+(3 + 9 + 2 * 5) * (6 * 6) * 9 * (4 + 7) * 9 * 7
+(5 + 8 * 6 * 5) + 6 + (3 + 9 * 8 * 2) * 7
+6 + ((9 + 7 + 2 * 7 + 2 + 7) * (5 + 5 * 8 + 9 + 3 + 4) + (9 * 7 + 7 * 7 + 9) + 4 * 6 + 6) + 6 + 2 * 3
+(4 + (4 + 4 + 7 + 5 + 8)) + (7 + (2 * 8 + 4 + 6)) + 8 + 8 + 2
+7 * (4 * 8 * 5 * (4 * 3 * 4 + 2 + 7) + 6 * 6)
+9 * 4 + 4 + ((9 + 3) * 5 + 5) + 6
+(4 * 9 + 3 + (9 * 6 + 4 * 6 + 3) * 8) + 3 + 9 * 4 + 8 * 6
+(3 + 3) + 8 * 4 * 6
+8 + 7 * (4 + 4 * (6 + 3 + 3 + 4 + 7 + 4) * (2 + 8 + 9 * 4 * 7) * 4 * (7 + 2 * 6 + 8 * 2 + 5))
+6 * (2 + (4 * 9 * 8) + 8 + (8 + 6 + 3 * 8 * 5 * 7) + 9) + 8 * 9
+(8 + 5) + (4 * 5 * 2 * 2 + 4 + 6) + (8 + 7 * 2)
+9 * (7 + 3) * 7 * (6 * 9 + 4) * 4
+2 * 4 + (9 + 8 + 3 + 5 + 9 + (4 + 7 * 6 * 7 + 9)) * 9 * 3
+9 * (7 * 3) + 4 * 7 + 2
+7 + 9
+2 * (7 + 7 + 4 + 9 * 5) * 8 + 3
+3 + 9 * 7 * (7 * 8 * 5 * 3)
+((4 + 6 + 6 * 9 * 9) + 2 + 8 + (5 + 8 + 2)) + 5 * 5 + 7
+(9 + 9) * (6 + (5 + 7 + 3 * 4) * 7) + (4 * 7 + 2 + 9 + 9) * 9 + (8 * 4 * 2)
+5 * (7 * 5) * 3 + 3 * 5 + 7
+9 * ((9 * 4 + 2 + 6 * 2 * 5) * (8 + 7) * 7 * 7 * 8 + 9) + 7 * 9 + (8 * 8 + 4 * 4 * 4)
+9 * 9 + (4 + 9) + 7 + (5 * (7 + 7 + 9 + 4 * 4) * (5 + 9 * 7 + 5 * 9 * 2) + 7 + 2)
+7 + 8 + 4 + ((3 + 4) * 2 + 3 * 5 + 9 + 6) * 6 * (9 * 6 + 9 * 8 * 5 * 8)
+4 + (4 + 7 * (5 * 6 * 3 * 9 + 8) * 4) + 6 + 6 * ((8 + 7 * 7 + 5 + 2) + 3 + (8 + 3 + 3 + 2 * 9 + 7) * (8 + 5 + 7 * 9 + 2) + 6 + 5)
+8 * 8 * 9 + (3 * 4 * 4 * 7 * (8 * 2 * 3 + 3)) * 2
+((4 * 5 * 4) + 3) + 6 * 6 * 4 * 5
+3 * 3 + 5 + (7 + 3) * 9 * 6
+((7 * 3 * 7 + 3 * 7) + 4) + 2 + 4 + 7 + 8
+6 + (8 * 9 * 6 * 3 * (5 * 9 + 7 * 5)) * (6 * 6 + 7 * 7) + 2 + 4 * 3
+(2 * (8 * 2 * 3 * 3) * 3) * (2 + 5 * 9) + ((9 * 6 + 6 + 8 + 3 + 6) + 3 * 5 + (3 * 8 + 8 * 2 + 9) + 3 + 6)
+4 + 5
+(7 * (6 * 9 + 5 * 6 + 3) * 3 * (3 * 7 * 2 * 3 + 7 * 9)) * 9
+(8 + 2 + 9 * 6 * (9 + 5 + 4 + 2) * 5) * 9
+(6 + 6) + (7 + 9 + 8) + (7 + 3 * (6 + 2 + 8 * 5 * 7) + 7 * 3 + 7) * 3 + 3 * 6
+6 * 8 + ((6 + 4 * 3) + (3 * 2 + 4) + 9 * 7) * 4
+(7 * (2 * 4 * 5 + 9)) + 9 + (8 * 2 + (2 * 4 + 9 * 2 * 5) + 3 + 6 + 8) * 9 * 8
+8 * 7 * 8 * (4 + 4)
+(4 + 8 + (8 + 7 * 3 + 4 * 2 * 7) * 5 * (9 * 9 * 7 + 3 + 9 + 5)) * 9 + 4 * 3 * (8 + 7 + (9 * 2)) * 3
+6 * 5 * 8 + (2 + 3 * 7 * 4 * 2)
+2 * (7 * 7) * (6 + 7 + 2 * 3 * 7) * 2 * 5 * 7
+7 * 2 * (3 * (2 * 5 * 7 + 3 * 8)) + (9 * (6 * 6 * 7 * 3) + (4 + 3 + 2 + 9 * 8) + 5 * (7 * 2 * 3 * 8 + 5 * 7)) * 8
+((2 * 7 + 5) + 3 * 2 * 7) + 4 * 8
+4 * (4 + 6) + (4 * 2 * 8 + (3 * 8 + 4 * 8))
+3 + 3 * 8 * 6 + (4 + (5 + 5 + 6 + 5 * 5) * 3 * 8 * 4) * 5
+9 + 9 * (5 + 7 + 7) * 5
+(5 * (7 + 6 * 9 + 6 * 9 + 5) + 3 + (4 * 8 + 5 * 8 * 3) * (9 * 9 + 2 * 2 + 2 * 8)) + 7
+((6 * 8 + 5) * (6 + 6 * 4 * 7 + 5 * 5) * 7) * 5 * 8 + 2 * 6 * 8
+(3 + 7 + 2 + 2 * 2 + 6) + 4 * 2 * 3
+5 * 2 * (7 * 2 + 2 + 8 * 2) + 4 * 4
+2 * 6 * 9 + (9 + 2 + 6)
+7 * (4 + 7 + 4 * 4) + 8
+6 * 8 + 9 * 7 + (2 * (6 + 8 * 5 * 9 * 3 * 6) + 7)
+4 * 9 * (4 + 9 + 8 + 7) + 7 + 4 + 7
+((8 * 8) * 6 + 6 * (7 + 8) + 3 + 9) + (2 * 9 + 2 * 3 * 7) + (7 + 2 + 5) * 5
+9 + 9 + 5 * (8 * 7 * 4 + 8 + 8 * 4) + 4
+(2 + (4 + 3 + 7) * 8 + 2) * (7 * 8 * 4 + 5)
+7 * (7 * 5 * 8 * (5 + 8 + 6 + 9) * 6 * 6) * 3
+(6 + 7 * (6 + 9) + 3 * (2 + 9 + 5) * 5) * 3 * (3 * (4 * 6 + 4 * 5 * 5))
+8 + 7 + 4 + (5 + 7 + 9 + 8) + 4 * (4 + 2 + 7)
+4 + 2 * 6 + (9 * (3 + 5) * (2 + 7 * 6 + 8 + 8) + 6 * 8 * 7) + 7
+(2 * (9 * 2 + 8 * 3 + 2) + (7 * 3 * 5 * 6)) * 2 + 9 + 7 + (4 + 7 * 8 + 9 * 3) + 8
+6 * (9 * 8 + (5 + 2 * 5 + 2 * 6 + 6) * 8 + 2)
+8 * 2 + (7 * 7 * (9 * 6 + 3)) + 7 + 5 * 4
+9 + 3 + 7 + 9 + (5 + (7 * 4 * 6 + 3 + 7 + 3) * 8 + (9 + 4 * 8 * 7 * 7) + 2)
+((4 * 4 * 8) + 6 * 4 * 7 + 4 * 7) + 7 * 8 + 3 + 8 + 9
+6 * (5 + 2 * (4 + 3 * 5 + 6 * 2 + 6) * 5 * 4 + 4) + 4 + (9 * (7 * 5 * 2 * 4 + 5) + 8) * (5 * (2 + 2) + 7 + (6 * 4 + 3 * 7 * 9))
+2 * (7 + 9) * (2 * 2 + 4 * 7 * 6) * 5 + 5 * ((5 * 8 + 3 + 9 * 3) + 6 * 4 + 9)
+(4 * 3 + 5 * 7 + 3 + 3) + (3 * 8 * 3 * 4 * 4) * 8 + 5 * 8
+6 * 4 * (4 * (3 + 6) + 2)
+9 * (7 + 8 + 5 + (9 * 9 * 8 * 6 * 5) * 9)
+(6 * 7) * 5 + 5 + 7 + 3 + ((4 + 7 * 5 + 6 + 7) * 3 + 4 * 4 + 3 + (6 + 2 * 3 * 2 + 4 + 8))
+3 + 4 * 2 + 2 * 7
+(7 * 4 + 9) * 9 + 6
+2 * (4 + 7 + 6 + 2 + 5 + 2) * 3 * (5 + (9 * 8) + 4 + 5)
+2 * (6 + 5 + 8 * 5 * (7 * 3 * 7 * 7)) * 8 + 2 + (3 + 7)
+((3 * 8 + 7 * 8) + 5 * 2 + (7 + 4 + 8 * 3 * 6)) + (5 * 2 * 3 + 2 * 2) + 2 + 5 + 3
+3 * 5 * 9 + 4 * ((5 + 5 * 4 * 3) * 5 + 8 + 5)
+9 + 7 + (8 + 2 + 4 * 8 + 8 * 3) * 5
+(4 + 6 * 4 + 7 + 9 + 9) + 5 + 5 * 5 + (4 * 8 + 2) * 2
+(9 + 2 * 8 * 8) + 6 + (6 + 5 + 3) + (8 + 8 + 4) * 7
+2 * (9 * 9 + 9 + 7) * ((5 + 9 * 9 * 8 * 4 + 5) + 8 * (3 * 6) + (9 * 9 * 2)) + 6 + ((7 + 9 + 3 * 3) + 4 + (3 * 6 + 2 * 8))
+((6 * 5 + 7 + 8 * 9 + 4) + 4) * 6 + 4 * (5 + (7 * 9 + 7 + 9) + 7)
+(9 * 3) * (3 + 2) + ((7 * 5 + 8 * 7 + 5) * 2) + 4 + 8
+(8 * (4 * 2 * 8 + 6 + 6) * 9 * (8 + 9 + 9 + 7 * 7 * 2) + 2 * 5) + (4 + 3 + 9) + 4 * 2 * 7 + 5
+5 * 6 + 9 + 6 + (9 * 7)
+(7 * 9 + 9 + 8 * 4) + 5 * (2 + (4 * 5 * 5 + 8) + 3 * 6 * 5) * 7
+2 + (9 * 2 * 4 + (8 + 6 * 6 + 6 * 4)) * 7
+4 * 5 + (2 * 4 + 6 + (8 * 2) * 9 * 2) + 9
+6 * 2 * (7 + 5 + 4 * 3 * 2) * 8
+(6 + (5 * 2 * 9 * 6 + 4) + 8) + 7 * 2 * 9 * 8
+(8 * 8) * ((9 * 4 * 2 * 4) * (2 + 7) + 6 * 7 * 5) + (9 + 6) * 3 * 6 * ((5 * 5 * 3 + 6 * 5 + 4) + 5 + 5)
+5 + 3 * 8 + 7 * 2 + (3 + 3 + 4)
+2 * 2 * 3 + 4
+(6 + 5 * 3 + (7 * 2 * 8) * 4 * 4) + 2
+4 + (2 + (9 * 8) * 2) + (6 + (6 * 3 * 2 * 5 + 4 + 2) + 2 + 8 * 2)
+((3 + 9 + 9) + 3) * (3 * 4 + (3 * 8 * 3) + 3 * 4 + 5) + 3 * 5 * 9 * 5
+(9 * 7 * 4 * 5) * (9 + 6) + (5 * 4 + 7 * 6 + 9 * 4) * 5
+8 + ((2 + 5 * 2 + 4 * 4 + 5) * (2 + 4 * 6 * 8) + 3 * 7 + 8) + 3 + 6
+(4 * 6 + (2 + 9 + 5 + 4 * 7 * 2)) + 4 + 9
+3 + 6 + 9 * (7 * 6 + 5) * (6 * 7 * 3)
+(2 * 6 + (2 * 8 + 2 * 8)) + 4
+6 * 4 + 3 * 7 * 9 * (9 * 2 + 6 + 2)
+(8 + (8 * 6 + 5 * 3 + 9)) * 4 * 9 + 4 + 5
+(8 * 9 * 8) + 7 * 4 * 3 + 5 * (3 + 8 * 2 * 9 * 7 * 8)
+5 + 6 + 8 + (4 + 4 + 4 * 5 + (9 * 2 + 6) + 5)
+2 * (8 * 5 + 7 + 7 + (3 + 2) * 4) * (9 * (2 + 8 * 7))
+(2 * (4 + 7 + 9) * (2 * 3 + 5 * 9 * 5 + 4) * 6) + 2
+2 * (5 * 2 + (9 + 8 + 9 + 9 + 6) * 5) * 9 * 8 + 3 * (2 * (3 * 9) * 7 * 4 * (5 * 7) * 6)
+(5 + 3 * 4 + 9) + 2
+((3 * 9) * (8 + 3 * 3 + 2 + 2) * 3) * 9 * 7 + 4 + (3 + 9 * 3 + (2 + 6 * 7 + 8 + 9) * (6 * 6 + 2 + 3 + 2)) * 8
+8 * (3 + 9 + 5) * (5 * (3 * 4 * 7 * 3) * 2 * 8) * 7 + (6 + 6 + 5)
+9 + (8 + 2 * 3 + 7 * 3) * 5 * 5 + 7 * 4
+6 * 9 + (9 * 5 + 7 * (4 * 5) * 2) + 9 * 4 * 5
+8 + 3 + (4 * 6 + (9 * 2 + 4 + 4 + 4 + 8) + 3)
+(3 * 6) + 2 * 9
+8 * 6 * (2 * 7 * 5 + (8 + 6 + 6) * 4 * (4 * 8)) * 7 + ((4 * 3 + 5 + 2) * 6 + (2 + 6 * 6 * 8 + 8) * 9) + 7
+(9 * (7 * 9) * (9 * 8 + 5) + 8 + (2 + 8 * 6 * 9) * (3 * 5 * 7 * 6 + 2 + 4)) + (8 * 9 + 7 + (3 * 5 * 2 * 4 + 9 * 8)) + 6 * 5
+(7 * 8 * 2 * 4) + 7 + 8 * 8 * 6 * (6 + 2 * (5 * 2) * 4)
+8 * (5 * 4 + 4) * 3 + 4 * 4
+7 + 8 + 5 + ((3 * 2 + 3 + 4 * 8) * 7 * 5)
+((9 * 7 * 6) + 7) + 7 + 3 + (4 * (2 * 8 * 7 + 2 + 9) + (4 + 2 * 3) + 2 + 4)
+(6 + 3 * 6) * 9 * 7 * (4 * 8 * 2 * (5 * 8 * 9 + 4 + 2)) + 3
+3 * 7 * 7 + 9 * 9 + (7 + 6 + (3 + 6))
+5 + 8 + ((8 * 8 * 4 + 5 * 3 * 5) * 4 + 4 + (5 * 5 * 2)) * 4 * 5
+2 * (5 * 4 + (3 * 9 + 9 * 9) * 9) + 6 + (3 * 3) + 9 * 7
+6 * 5 + (6 * (8 * 5) * (9 + 7 * 6 * 5) * 9 + 3 * (6 + 9)) + 8
+4 + 9 + (5 * 9 + (7 * 6 * 3 * 8) + (8 + 2 + 7 * 5 + 3) + (4 + 7 * 7 + 7) + 9) + 7 + (7 + 2 + 8 + 4)
+((6 + 4 * 4 + 5 + 7 + 7) * (8 * 2) * (6 + 3) + (9 + 3 * 4 * 7 + 4 + 9)) + 5
+(6 * 2 * 3) + 8 + 9 + (3 * 3 * 2 + 8) * (3 * 9 * 7 + 5 * 5)
+7 * 5 * (9 + 5 + 3 * 7 + 8 * 4) * 3 + 2 + 4
+(8 + 9) + ((5 * 5 + 5 * 3) + 2 + 8 + 9) * 4 * 2 * 4 * (5 + 4 + 2 * 8 + 7 * 3)
+9 * 3 * 6 + (2 * (3 + 8 * 7 * 4 + 6) + 5 + (4 * 7) + 2 * (3 * 9 * 8)) * 7
+((6 + 3 + 8 * 6 * 8) * (8 * 6 + 4 + 9 + 4) * (4 + 9 + 2 * 2 + 3) + 7 + (3 + 9 + 3 + 7 + 9 * 6) * 4) + 8
+5 * (3 * 4 * 4 + (5 + 7 * 3)) * 3 * 5 * 7
+((5 * 5 * 7 + 7 + 4 * 9) + 3) + 4 + 5
+(7 * 4 + 6) * 2
+6 * 2 * 5 * (8 + 6 + 3 * 8 * 5) * (4 * 3 * 5 + 4 + 5 + 9) * ((4 * 6 + 3 + 9) + 5 + 4 + 2 + 6 + 2)
+4 + (5 + 4 + 7 + (8 * 8 + 7 + 6) * 3 * 4) * (2 + 3 + 4 + 9) + 3 + 8
+5 * 5 + (7 * 9) + 5
+(2 + 3 + 3 + 5 * 6 * 2) * 7 + 8 * (2 + 5 * 8 + 2 + 3 + 5)
+2 + 5 * (5 * 7 * 5 * 3) + 2 * (7 + 4 * (5 * 9 * 5) + 6)
+5 * 7 + 7 * 4
+2 + 8 + 3 + (3 * 8 * 9) + 5
+3 + ((2 * 8 + 3) + 3) * 9 * 6 * 6
+((7 + 6 * 3 + 6 + 7) * 4 * (9 + 6) + 6 + (5 + 8 + 4 * 7 + 9) * 7) + 9
+6 + ((2 * 7 * 6 + 2) * 9) * (8 * 5 * 2 + (2 + 6)) * 4 * 6
+(5 * 6 * 4 * 2 * 7) * 2 + 2 + (5 * 8 * (9 + 8 + 7 * 3 + 2 + 6) + 5) + (2 + (9 * 4 + 3) * 9 * 2 * 4 + 8) * 6
+((7 * 8 + 2) * 8 * 6 * 5) + 4 + ((8 + 3 * 9 + 7) + 8 * 5) + (2 + 5 + 8) * 4
+3 * (4 + (7 + 2 * 4) * 8 * 6)
+9 * ((6 + 8 + 2 * 3) * 2 + 7 + 4 + 9 + 5) + 6 + 9
+6 + 7 + (7 * 7) + (8 * 9 + (9 + 9) + (6 * 5 * 9 + 9 * 4)) * 3
+(5 + (3 * 5) + 5) + (3 + 5 * (4 + 7 + 7 * 8) * 8 * 2) * 7
+5 * 7 + ((9 + 3 * 8) + 3 * 3)
+2 * (8 + 8) * (4 * 9 * 9 * (6 + 8 + 3)) * 7 * 7 + 8
+9 + ((6 * 4 * 9 + 3 + 7) * 5 * 9 + 9 * (2 * 8 + 3 + 7 * 9 + 4)) + 8 + 6 * 8 * 9
+(8 + 3 + 9 + 7 * 6) * 6 * 2 + 7
+7 * (5 * 4 * 8 + (9 * 7) * 7) * 8 + 3
+(5 + 5 + (3 * 9) * 3 * (6 + 2 * 5 * 4 * 5) * (8 * 7 * 9 + 9)) + 9 + ((6 * 2 + 9 + 5 + 6) + 4) * 3 * 8
+4 + 4 + 7 + 2 + (4 * 5 + 2)
+5 + 8 * (5 * (6 * 5 * 7))
+((8 * 5 + 8 + 4 * 9 + 4) * 5 * 2 * 5) + 6 + 5
+4 + ((2 + 6 * 3 + 5) + 9 * 3 * 6 + 4 * 7) * (7 * 6 * 4)
+5 * (4 + 2 * 8 * 3 + 8 * 8)
+5 + 2 + (2 * (2 + 4) * (3 * 3 * 7 * 6 + 5 * 7) * 8 + 4) * (8 * 9 * (5 + 3 + 8 + 4 * 9 * 7))
+8 + ((5 + 4 + 9 + 3 + 8) + 9 * (3 * 2) + (6 + 5)) + ((8 + 7 * 2 * 4) * 5 + 4 + 5 + 2 * (2 * 3))
+(8 + (7 + 6 + 9 + 2 * 6 + 4) * 2 + 5) * (3 + 6 * 9 + 6 + (8 + 9 + 4 * 4 + 2 * 7) * 6) + 4
+8 + ((5 * 4) + 7) * 2 * 3 * 7
+(3 + 4 + 2 + 8 + 2 + 4) + (2 + 6 + (7 * 8 * 4) + 3) + 3 + 2 * 9 + 5
+6 * 8 * (8 * 9 + 5 + 8)
+((8 + 2 + 5 * 8 * 9 + 4) * 8 + 9 * (9 + 2 * 6)) + 3 * 3 + 9 * (5 * 4)
+((2 * 9) + 7 + 7 * (7 + 8 * 4 + 2)) * 6 + 6 + (4 * 2 * 7)
+7 + ((2 + 8 + 7 + 4) * (4 + 2 + 9 + 2 * 9) + 2 + (6 * 8 + 5 * 2 * 3) + 5) + 7 * (6 + 8) * 5 + 2
+8 * 5 + 3 + 7 * 7
+(6 * 3 + 2 * 5 + 6) + 5 * (4 + 9 * 2 * 8 * (7 * 7)) * 7 + 9
+2 * 7 * ((5 + 7 * 5) * 6 + 3 * (2 * 3 + 8) + 5 * (9 + 7 + 5 * 3 * 6)) + (7 * (8 * 5 + 7 * 4) * 9)
+((6 * 9 + 8 * 8 + 2 * 8) + 8 + 5 + 4 * 7 * 4) + 7
+5 * 6 * (3 * 3 * 6) * 6 * 7 * 9
+2 + 3 + ((6 + 5) * 7 + (2 * 4) + 7) + 6
+(7 + 8 + (2 + 4 * 9 * 8 * 5)) + (3 + 8 * 7)
+9 + ((3 + 4 * 8 + 3 * 4) + 2 + 9 + (8 * 7 + 3 * 4 * 7 * 8) + 3) * 2 + 4 * 6
+4 + ((2 + 9 + 4) * 3 + (7 + 3 + 2) * 5 * 3 + 2)
+2 * 4 + 8 + 2 + 5 * (4 + 6)
+(9 + 8 + 9 + 7) * 8 + 4 * 8 * (9 + 9 * 6) * 8
+3 + 5 + (6 * 8 * 2 + (6 * 9) * 6 * 8)
+3 + 4 * 2
+6 * (3 * 2 + 3 + (6 + 3 + 7 * 4 + 2 * 7)) + 6 * 9 + 9 * 7
+8 + 6 + 4 + 4 + (6 * 3 + 9) + 7
+(4 + (3 * 5 * 7 * 7 + 4) * 5) * 2 * 6
+8 + 4 + (5 * 5) + (6 + 8 * (7 + 3 + 7 * 7) + (6 + 4 + 9 * 8) * (2 + 6 + 7 + 4 * 3 * 7)) * (8 * 7 + 9)
+((4 * 6 * 3 + 5 * 6 + 9) + 4 * 7 + 2 + 5) + (3 * 6 + 4) + (7 + 8 + 8)`,
+
+    "day-19": `104: 23 105 | 105 23
+40: 23 39 | 105 35
+127: 23 3 | 105 49
+96: 85 23 | 73 105
+114: 70 23 | 106 105
+124: 80 105 | 71 23
+23: "a"
+97: 105 12 | 23 104
+18: 23 118 | 105 29
+89: 121 105 | 39 23
+13: 23 18 | 105 87
+122: 50 105 | 24 23
+6: 58 105 | 59 23
+101: 105 44 | 23 43
+31: 105 65 | 23 13
+36: 64 105 | 68 23
+74: 105 123 | 23 7
+38: 19 23 | 48 105
+118: 105 127 | 23 75
+130: 23 30 | 105 44
+59: 105 121 | 23 71
+112: 92 23 | 97 105
+91: 25 23 | 66 105
+46: 30 23 | 39 105
+111: 105 35 | 23 104
+28: 105 129 | 23 112
+25: 105 62 | 23 89
+125: 23 61 | 105 100
+120: 105 131 | 23 44
+102: 43 105 | 48 23
+105: "b"
+27: 5 23 | 10 105
+84: 21 23 | 130 105
+56: 105 39
+35: 23 23 | 105 23
+44: 23 105
+69: 80 105 | 104 23
+100: 72 105 | 110 23
+72: 39 105 | 19 23
+95: 105 69 | 23 109
+88: 120 105 | 78 23
+53: 67 105 | 14 23
+26: 21 23 | 56 105
+80: 105 105 | 105 23
+70: 19 23 | 12 105
+92: 44 23 | 12 105
+37: 48 105 | 55 23
+132: 23 16 | 105 122
+7: 105 48 | 23 12
+113: 39 23 | 12 105
+10: 102 105 | 126 23
+94: 105 | 23
+42: 105 128 | 23 132
+103: 105 89 | 23 57
+107: 105 79 | 23 76
+11: 42 31
+99: 47 105 | 1 23
+55: 105 94 | 23 23
+8: 42
+4: 23 41 | 105 15
+81: 51 105 | 116 23
+76: 37 105 | 78 23
+110: 12 23 | 35 105
+45: 105 33 | 23 84
+78: 23 131 | 105 35
+63: 72 105 | 133 23
+51: 19 105 | 131 23
+83: 105 45 | 23 27
+21: 23 71 | 105 104
+19: 23 105 | 105 94
+54: 23 48 | 105 55
+41: 23 121 | 105 55
+20: 115 105 | 86 23
+15: 105 71
+66: 105 113 | 23 49
+121: 94 94
+14: 99 105 | 81 23
+22: 30 105
+129: 105 109 | 23 111
+5: 15 105 | 9 23
+30: 105 105
+131: 105 23
+87: 23 77 | 105 91
+98: 23 38 | 105 82
+77: 23 88 | 105 74
+43: 23 23 | 94 105
+86: 23 98 | 105 93
+58: 55 23 | 131 105
+1: 23 35 | 105 30
+9: 105 131 | 23 55
+49: 104 105 | 55 23
+68: 23 131 | 105 48
+0: 8 11
+71: 23 23
+48: 105 23 | 23 94
+29: 105 119 | 23 117
+93: 52 23 | 22 105
+16: 105 125 | 23 28
+126: 35 23 | 43 105
+65: 83 23 | 53 105
+62: 19 105 | 104 23
+12: 23 23 | 23 105
+52: 105 19 | 23 104
+67: 23 103 | 105 63
+24: 4 105 | 26 23
+50: 105 95 | 23 96
+47: 105 30 | 23 30
+32: 105 114 | 23 6
+82: 105 19 | 23 12
+75: 34 105 | 59 23
+34: 23 39 | 105 80
+17: 23 104 | 105 131
+109: 44 23 | 39 105
+79: 17 23 | 78 105
+85: 12 23 | 39 105
+57: 23 30 | 105 121
+2: 23 30
+3: 71 23 | 19 105
+115: 108 105 | 36 23
+64: 23 121 | 105 12
+90: 105 32 | 23 107
+116: 12 105 | 131 23
+123: 71 105 | 35 23
+61: 85 23 | 70 105
+133: 80 94
+119: 105 40 | 23 46
+128: 23 90 | 105 20
+60: 104 105 | 80 23
+33: 23 89 | 105 101
+73: 105 121 | 23 19
+39: 105 105 | 23 23
+108: 105 2 | 23 54
+106: 71 105 | 44 23
+117: 124 105 | 60 23
+
+aababbbaaabbaaaabbabaaaabbbaababbbbbaaabbaabbbbb
+aababbabaababbbabbbabaaabbbbbbababaaabaa
+bababbbabaaabbaababbabaaabbbaaab
+baabababaaababbaabbbbabb
+baaaaaabaaaaababbbabbabbbaaaabba
+abbabbaaabbbabbaabbbababaabbabbaaababaabbabbabbbaabaabababbaaabbaababababbbbbbab
+bbbaabbaababaabaabbaaaabbaabaaabababbaababbbaaabaaaaaaabaabbbaabaabababa
+baaabaaaababbabbbabbababbbbabaaaabaaaabb
+bababaababbbababababaababbabbabbaabbaabbaaabaabb
+aabbbbabbabbababbbbaabbb
+bbbbbaaabbabbabbbaaabbbb
+bbaaabbabababbaaaabbbabb
+aaaababbaaaaaabbaaaababbababbbaa
+baaaabbbabaabbbaabbabbab
+aabbaabbbbbaaaaaabbaaaab
+baaaabbbaabbababbbbbbaaababaabba
+abaaababbbaabbababbbaaaabaabaabbbbbbbaba
+baaababaaabaabaaaaabbbababbaaaaa
+bbaabbabaabbbbabaabbbbaa
+bbabaaaabbbbaaabbbababbb
+abaaaaabbaaabbabbbabbaab
+baaaabbbabaabbbaaaabaaaa
+bbabbbbbbababaaabbbbabaabaaaaaaa
+abababbbabbbbbbbbbababaa
+ababaabbbbbabbaaaabaaaaabbbaabbaabbbbaaabbbabaababbbbbbaaaababbaabbaaaba
+babbbbaabaaaabbbababbaaa
+bababbbaaaaabaabbbabbaaa
+babababaaaabbbbbbbababaa
+aaaaaaaabbbaabbbabbaaabbabaabbbbabaabbaabababbaaaaababbababbabbaaaaabbbbbaabbbbabbaaabba
+babbaabaabababbbaababbbb
+baabbaabbaaaabbbbbbbabaabbbababb
+bbbaaaaaabbbaaabbbabbaaa
+aababbbabbaaababbaababaabbbaabba
+bababbbaaabaaabbabbaabba
+baaaabaabaaabbabbbbaaaaa
+bbbabbabaabaaabbaaabaaabbaaabbba
+bbaaaabbbaaabaaabbbaaaabbbaaaabbbabbabbbbabaaaba
+bbabbbbabbabaaaaaabaabbbaababbbb
+abaaababaababbabbbbaabba
+bbbaabaababaaaabbbbababa
+aaababaaabbaaabbaaaababa
+bbaababaaaaaabaaaaabaaaa
+aabbaabaaaaaabababaabaabbbaabaabbbbaabbaabbaaaab
+babababababababbbbbbabbb
+aabbaaaabbbaaaabbabababbbbbbbbbbaaaaaaaa
+babbabaaaaaaababbabaaabb
+bbbbabaaabaaabbaaaababbb
+bbabaaaabbaabaaabbbaabaaabbaabba
+babbbaaaabaaabbaabbaaaab
+baaababbababbabbbabababaababbabbaaabbbaaababbaab
+baaaabaabaaabbabbbbababa
+babababbabbbaaaaaaaaaaaa
+bbaababbabbaaabbabbbbabbabbbabababbbabba
+aabbbaabbbabbbbbabaaabbabbabbbbbaabaababbabbbabbaabababa
+aababbabaabaababbbabbabbabbabaabababbaab
+abbbbbaabaaabbababbbbbaabaaabbbb
+abababababaaaabbbaaaabbababaaabbabaabbbbbababaab
+abaaabbaabababaaababbbbaaabaaabbabbabababababababaaabaabaaaabaaababaaababbaaaaaaabaabbbb
+baaabbabaababaabbabababbbaaabaaaabbbabbaabaaaabb
+abaababbababaababaabbbaababbaaaa
+aaaaaababbbaababbbbaabbb
+babababbbababbaabbabbbaaabaababa
+aaabaababbbbabbbbbbbbbaababbabbabbbaabababbbbabbbabaaababaabababaaaaabba
+abaabaababbbaaaabbaabaab
+bbbabaaaabbbaababbaaaaaa
+aabaaabbbbababababaaaabaabbbaaaaaaabaababaabaabb
+ababbaabbaaaaaabbbbaaabaabbaaaabaababbbbbbaaabbaaababaabbbbababa
+babbababbbbbbaaaababbaab
+baaabbabbababaabaaaabbbb
+baaababbbaabababababbaaa
+bbaaabbbaaaaabbabbbaaaba
+babbababbaaaabbbabbabaaabaabbbba
+babbbaaabbabbbaababaabba
+bbaabaaaaaabbabaaaabbabaaaaabbabbaaababa
+aaaaaabaabbabaaaabaabbbaaaabbaaabaaabbbb
+bababaababaaaaabbaabbaaa
+aababaabaabaaababbaaaabbaababaaa
+bbbabaabaaaabaababbbbbab
+baabaabaaaaababbbbbbabba
+abaabaabbbbaabaaababaabababbabbbbbbbaaaa
+bababbaaaaaaabbaaaaaaabbabababba
+bbabaabaabbabbbbbaaaabaaaabbbabb
+bbabababababaababbbaaaabbbbbbaba
+aabaabbbbabababaaabaaaaabbabbbabbbbbaabbbbbabbbbabbbbaba
+abbaaaaabaababbabaaaabab
+aabbbaabbbabbbbbbaaaabbbabbaaaaabababbbb
+abaabbbbbbaaabbabaabbaabaaaaabbbbaabbabb
+aabaabaababaaaaaabbabaab
+abbbbbaababbaabbbbaaabaaaaabbbaa
+aabbaabbaaaaababaabbabaabbbbbbbb
+abbaaabbbbbabbbbaabbabba
+bbabababaaabbaabbaaabbabbbbbbaaaababaabaaaaabbaabaabaaaa
+bbaabaaababababbaaaabaaa
+babbbbaabaaaaabbabbbaabb
+babbaabaaaaabaabaabaaabaaabababa
+aabaabbbaabbbabaabbbaabaababaaab
+abbbbabbbbaaaabbbbababaa
+bbbbbaaabbabaaaabbbbabbb
+abaabababbabaaabaababbaa
+bbabaaabbaaabbaaabbaaaba
+bbabbbbaaaabbbbbbaabbbbababbbaabaabbbaaaabbaabababaabaaabaabbbbbabbaabaabbaaabbaaababbaa
+aabaabbbabbaabaaaaaaaaaa
+babbbaaababbaabbbbababba
+bababbababaaaaaabbbbabba
+baabababaabaabaaaaaababa
+ababaabaabbabaaabbaabbbbabaaaaabbbbbbaaabbaabaababbbabaaababbaaa
+bbaabbaaaabbbaabbaaabbbb
+baaaaaabaabaabaaabbaaaaa
+aaababaabbabbbbaabbbbbaabbbaaabababaaaba
+abbbaababaabaabaabbabbaa
+abbbbbaaaabbabaaabababaa
+abbbaabababbaabbaababbaabbaaaabbabbbbbbaabbabbbaaaaabbba
+babaaaababaaabbabbbabaaabaababbbbabbaaab
+babaaaaababbbbbbbaabaaaa
+bbbbbaabbabaaaaaabbbbabbaaabbbbbbbabbaabbbabbbbabbbabbbb
+babababaaaaababbaaababbaabbbbaaa
+aaababaaaabaabaaababaaaa
+bbaaaabaabbbbabababbbaab
+bbbaaaabaababbbaabaaabbababbbbab
+abbbbaabbaaaaabbbabbaabaabbbaaaabbabbaab
+abbbababababbabababaaaab
+aabaabbbabaababbbabaabab
+bbaaaababaabaabaaabbbabb
+bbbabbabbabbababaaabaababbbaaabb
+babababbbbaaababbbbabaab
+baabbbabbbbbbaaabaabbbabaabaaabaabbaabbb
+aaaaabbabaaababbbbbababb
+bbbaabaabababbbababbabbabbbaabbbbbbabbaa
+bbaaabababaaaaababaaaababbababbbbbbbbbbb
+aaaaababbaabbbababbaaaab
+bbbaaaabbaababaabbbbbbbababbbbbb
+bbbbaaababbbaababababbbaabaababaababbbbbbaababbb
+bbabbbaabaaabaaabbbababb
+aabbababaabaaaaabbbabbabbbaaaaaa
+aaababbaabbaabaaabaaaabbaabbabbababbbabbabbaabbb
+ababaabaaabaabbbabbaaaaa
+ababaabbaaababbaabaaaababbabbbabbbbbbbaaaaaabbaa
+baaabaabbbabbabababaabba
+aaabaaabaaabaababbbabaabbabbbbbb
+aabaaabbaabbaabbabbbababbabbaabaabbabbab
+baaaabaaaabaaabbbbbaaaababaaabbabbbababbabababaa
+bbaabababbabaaabbbaabaaabaaaabba
+abaabaabbbbaaaabbabaabaa
+bbbaababaaaabaabababbbbbaabbbabbbaaaaaaa
+bbaababbababaababbaaaaaa
+bbbbbbbabbbbbbaaabaabbaa
+ababbbbbbabbaabbbbaaaaab
+bbabbabbaabbabaaaabbbbba
+ababbaaababbabbabbaabbbabaabbabbababaabbabbbbaabbbbaaabaaaaabbbaaaaabbabbabbabbb
+aaaaaaabaabbbbaababbbabbababbabbbbabaaaababaabbbbbabbabb
+baaaabaabababaaaaaabbbaa
+ababbbbaaabbaabaaabbababbabababaaaaababbbabaabbaabaabbaabbbbbabb
+aabaaabbaaabaababbbaabaabbbbabba
+bbabaaabbaabbbaaabbbbbab
+bbaabaaabbbbaaababbabbba
+aabbabaaabbbbbbbaabbabbb
+baabababaabbabababababaa
+abbbbabbaaabaababbaabbabbbbaabababaaabbabbbbabbbababababababbaaa
+baabbaababababaaabbaabaaaaaabaaaabbabaaabbababaaaaaabbaaabaaabbb
+bbbabbbbaaaabaabbbbaaaabbabbbaba
+abaaababbabbaabbbbbaabba
+ababbabbbaaaabaaabaaabaaabababbbbbbbbbbbbbbabbba
+aabbbabaaaaaabaabaaabbbb
+aaaaaabaababbbbaabaabbab
+ababaaaaabaaabbbbbbbababbabaaababaaaabaaabbabbbb
+babbabaaabaaaaabbaaabbaabaaaabaaaababaaa
+bbbbbbbaaabbbbabbbbbabbb
+abbbbabbbbabbabbbaabababbabaabab
+babbbbaabbabaabbabaaabbabaaabbba
+bbbabbbbbababababaaabbabbbbbaabb
+bbabbabbbaaabbaaaabbaabbabbbbbbbabbbbbbbbabaabbbbabbabbbabaabaaaabbaaaaa
+bbabaababaaabbabbbabaabbaabaabbababbbbba
+bbabaaabbbaaabaaabbbabbb
+aabaaabbaaaabaabababbaaa
+abbbaababbabbbaaabbaaaab
+abaabbbabbabaaaaaabaaabbaaaaaabbbaabbbba
+bbabaabbabbbbbbbaabababb
+bababbbaaaaabaabababbbaa
+abbbaaaabbbaabababbbbbbaabaaaaabbabbbbbabaabbbbbababbbbabaaababbbbbabbaabbbababa
+aaabaababababbaabaabbbabababbaaabaaabbaabaaabbbabbaaaaabaabaaaabaaaaaaaa
+abbaaabbababbbbbbaabbaba
+aabaababbbabbbabbbabaababbaaaabaabbbbbba
+bbaabbaaabbbbaabababbbaa
+aababaabababbbbababbbaba
+bbbbbbbaaabaababaabbaabbbaaaaabababaabbb
+abbbaaaabbbabbbbaababbbb
+aaababbaaabbbababaabaaab
+bbaaabbababbbbaabaababba
+bbbbbaaaabaabbbbabbbaabb
+baaabbaabababbabbbbbaaaa
+abbbbababbbbbbabbaabaaabbbbbbaab
+baabbbabbbbbbbbabbaaaabaababaaaa
+aaaaabbaaabbaaaaaabaaabaaaabbbaa
+bababbaaaabbaaaaaabbbbaa
+abaaabbbaaabaabbabbbaaabaaabaaaaaababbbb
+aaabbbbbbbabaaabbbaaabbaababbbbbaabaaaab
+aaabbaabaabbaaaabbaaaaab
+bbaabaaaaabaaaaaabbabaab
+babababaababaabbabbabaab
+aabaabbbbbbbbbaabbabaaaaaababbbaaaababaaaaabbbbaabaabbabaaaabbaabbaabaab
+bbaaabaaaabbbbabaabbbbabbbbbabba
+aaaabaabbaaababbbbbbbbaaabbabaabbbbbbbbb
+abbaababbbbabaabbaabbbba
+aaaabaabaababbbababbbabb
+bbaabbaaaababbabaaabbabaaaaabbaa
+aaabaaabaabbabaababaaaaaabaaabaa
+aaabbababbaaabbababaabaa
+abaaabbaababbbabaabaabbbaabaaaaabbababbb
+bbaaabbbaaabaabaabbaabba
+bbaababbbbabbbbbbaaababa
+baaabbaababbaabaabbbbbbbbabaaaabbbbaabba
+baaaabbbbaabaaaabbaaaaaabbbbbabababaaaba
+bbaababaaabbbababababaaaabababab
+baaaabaabbabbabbbaababbb
+bbaaaabaabaaabbababbaababbbbbbbbabbabbab
+babbaaaabbababbaaaababbbbabbabaabbababbbbbbabbba
+bbabaaabababaabaabbbabba
+bbbaababababbbababbabbab
+aabbbbabaaabbbbbaabbbbaa
+aabaabbbabaaaaababbabbba
+bbababababbbbabbabbaabbb
+baaaaabbaabbababbbaaaabbbababbbabbbbbaabaaaabbba
+bbbaabaaabbabaaabaabaabb
+bbbbabaaabbbababbbaabaaabbaabbaa
+babbabbbbaabaaaababaaabababbbaaaaaaaabaaaabbababaabababbabbabbbabbabbbaa
+aaaaabaaaaaaaabbabbabbaa
+aaababbabbbabbbbababbababbbbbbbb
+baaabbaabbbbabaaabbbbabbbbababbb
+bbabbbbabbbaabaabaabbbabaabaaabbbabaabbababbaaaaaaaabbbb
+bbabbbabaabaabaabaaabbba
+ababaabbbbaaabaabbaababaaaaabbaabbaabbba
+abbbaaaababababbbbbbbbbababbbabb
+aabaababbbaabaaaabbabbab
+abaabbbabaabaababaaabbbb
+baabbbaaabbbbbaabbbabbabaaaaaabaaabaabbbbbaabbaaabbaaaab
+bbabaaabaabbababaaabaabb
+ababbabaabbbabababbbbaba
+abaababaaaaaaabbabbbababaabababaabaabaaa
+babababbabbaaaaabbbbabbbaababbbbbaabaabaaabbbbabbabababa
+abbaabbaaababbaabaabbababaabaabb
+abaabaabbabbabaaabaaabaa
+aaaaaaaaaabaabaaabbbababbababbbbaababbaaaaaabbabababbabbbabaabab
+bbaaaabaabbbbbaaaaabaaabbaaaabbabaabaaab
+ababaabbbaaabaaaaaabbbab
+bbabbabaabbaaabbbabbbaab
+aaaabbbbaaaabababaabaabb
+bbabaaabaaaaabbaaaaabbba
+abbbababaabaababababaaab
+bbbaaaababaaabbbbabababaabbaabbb
+aabbababbaabaababaababaaababaabbbaabbbaa
+ababababbaaabbaaababbabaababaaaa
+bbaaabbbbbabaabbaabaabaaabaaabaaabbaaaab
+bbaababaaabbaaaaaaaaabaaaaaaaababababbababaaaabaaaaaabbb
+aaaaabaababbbbaabbabbabaaaaabaabaaaaabbabababbbbabbbbaaa
+abbabaaababaaaabaaaaabbbbbbbaaaa
+aabbaaaaaabbbaabaabbbbaa
+abaabaabbabaaaaabbbbbabbbbababaa
+abbaabaabbbabaaaaabbaababbaaaaababbbaaab
+bbaabbabaabaabaabaaaabaabbabbaaababaaabb
+aaababaabababbbabbbaaaabababbbaa
+abaaabbababbbababbbaabababbababb
+aababaabaabbbabaabbaaaab
+abbabaaabaabbababaabbbbaabbaabbabbbaaaaa
+aaabbabaaaabbbbbaabbbaabaaababaaaabaaabbbaabbaaa
+babbaabbababaabbaabbabbb
+aaabbbbbbbabbbaabaabbaba
+abaaabbaabaababaabbaababbaababbaaaabbabb
+bbabbbbbaababaabbaabbbbbabbbaabb
+baabaabaabbabaaabbaaababaabbaaab
+bbbaabababbbbbaaaabbaaaaaabbbaaa
+aabaabbbaaabbbabbbbaaabaababababbbabbaabbbbbaababaabbbba
+abbbbbaaaaabaabababaaabb
+bbbabbbbbbaaaabbabbaaaba
+abbabaaaababaabbbaaabbbb
+ababbabababbbaaaababbbaa
+bbbabaaabbaaabaabbabbaaa
+babbaabaabbaabaaaabbabbb
+babaaaaaabaaababbababbabbbbbaabababbbbbb
+baabbbabaaabaababaaaabba
+abbabbbbaabaabababbbabba
+baaababbbbaababaaabbabaabbbaababaabbabbababbbbab
+abbbbaababaaabbabbababba
+bbaabababbaaabbbabbaaaab
+baabbaabbbbababaababaaaa
+bbabaaaabaabbaababbbaaab
+baaaaabbaababaababbaaabbbbaaaaaa
+bbabbbbaaabaaabaabbbbabbababbaabbaabbbbb
+babbaabbaabbabaaaabbabbb
+abaaababbabbbaaabbbbbbbb
+abaabbbababbabaaababaabbbbaaabbaaaaabbaa
+aabaabbbbbaaaabbaaabaaaa
+ababbbbaabaabbbabbbbbabb
+aabbbbabaabbbabaaaabbbab
+bbabbbbaaaabaababaabaaab
+aabbbbbbbbaaabbbbaabbaabaababaabbbababba
+abaababbabbabaaaababbbba
+aaabbbbbbbabbbbabbbbbbbabbbbbbbaabbaabbabbaabaabbabaabaa
+baaabaaaaaababbabababbbb
+bbaaaabbaaaaaabbaababbaa
+aaaaababbabbbaaabbabaaaaabbbabbbbabbbbab
+baaabaabbabbabbabbaaaaaa
+bababbbabaaaaaabbaaaabababbbaabbbbbaaaaa
+abaaaaabbaaaabaabbbbbbaabaaabbaababaabbb
+bbaaabbababbbaaabbbbaaba
+babbaabbabbbbbaababbbbab
+abaabbbbbbaaababbabababbbabbabababbbabbbbaaabbbb
+babbabababbbbaabaaababaaaabaabba
+abbabbaaabaabaaaabbaabbabbbaaaaa
+bbaaaababbabaaabaabbabba
+bbabaaabaaaabaabbbbaaaabaabbbbaa
+bbabbbbbbbbbbbaaaabbbbbaabaabaaa
+bbbbaaabaaabbabaaaababab
+babbbbaabaaaaabbbbaaaababbabbbbbaababbbabbababbbbaaaabba
+aabbbbabbbbbbaaaabbaaaaa
+bbaabababbabaaabbabbbbab`,
+
+    "day-20": `Tile 1171:
+.##...#...
+.........#
+....##....
+#.#...##.#
+.....#....
+.#...#...#
+###.......
+.#........
+#........#
+#..##.##.#
+
+Tile 3331:
+..##.#....
+#....#...#
+#.........
+#...#..##.
+#.#...#..#
+..#...##.#
+.......#.#
+.....#.###
+##..##....
+.#.#.###..
+
+Tile 2273:
+.###.#....
+........##
+#..##.....
+...#..#.##
+#.........
+..#.......
+.........#
+##.......#
+.##..#...#
+.##.#.#.#.
+
+Tile 2179:
+.#..#.#...
+##.#.#..#.
+#...##.#.#
+#.........
+#..#...#.#
+###.##...#
+...##....#
+.......#..
+#.##.....#
+#.#####.#.
+
+Tile 2579:
+.#...#....
+##.....###
+#######..#
+#.......#.
+###.....##
+..#..#....
+..#......#
+.#...#...#
+#.......##
+#.####..##
+
+Tile 1153:
+.##.#.....
+#.......#.
+#...###.#.
+..#....#.#
+#...#...#.
+#...##.###
+#..#....#.
+#.#......#
+#..#.#...#
+.##.###...
+
+Tile 2311:
+####.#..#.
+#.#...#.##
+#.......##
+##.##.##.#
+.......#.#
+...#.....#
+....##.#.#
+#.##....#.
+#.#...##.#
+.##.####..
+
+Tile 1579:
+#..##.##..
+.#.##..###
+#...##.#.#
+###.....#.
+#.#......#
+....#.#...
+#.#..###..
+......#.##
+.#...#.#..
+##.....##.
+
+Tile 2351:
+.##..###..
+#.#..#..#.
+#.......##
+....#.....
+#.....#...
+......##..
+...###....
+#.##..#...
+..#.##.#.#
+.#.##.....
+
+Tile 3761:
+#..#.###..
+.#...#....
+.....##.#.
+#..####...
+#.##...#..
+###..#.#.#
+.#..#.#...
+....#...#.
+##..##.#.#
+####.#....
+
+Tile 1783:
+##.####.#.
+###..#.##.
+#...#.#..#
+##........
+.#.....#.#
+#.#...##.#
+#..#..####
+#..#...#..
+#...#.#.#.
+##.#...###
+
+Tile 3259:
+#.....#...
+..###..#..
+#.##...#.#
+###.....##
+####.#..#.
+..........
+#.....#...
+###...#..#
+#...#.....
+.#..##.###
+
+Tile 1721:
+.#..#...#.
+.#...#...#
+#.....#...
+#..#......
+..#####...
+#.#..#....
+...#.#....
+#...#.#...
+.#.#..#..#
+##...#..##
+
+Tile 2749:
+#...#.##..
+##....#.##
+..#....#.#
+#...##....
+...#.##.##
+#..#...#.#
+#.#...#..#
+#.........
+#..#...##.
+..#...#.##
+
+Tile 1259:
+###.#..##.
+.#..#...##
+#.#.##..##
+..#..#...#
+.#..#.#.#.
+#.........
+##......#.
+.####.#...
+.##....#.#
+....##.#..
+
+Tile 2683:
+.#.######.
+#...##...#
+##.#..#...
+..#.##...#
+.....#.#.#
+#..#.#....
+#.###.....
+#.....#.##
+#.........
+..#...#.#.
+
+Tile 1217:
+.##..#.###
+#.....#.#.
+#.......#.
+#...##..##
+#...##.#..
+...#.###.#
+##.#....##
+.....#....
+.#.#...#.#
+....##...#
+
+Tile 2251:
+##.##.....
+#.#.....#.
+##..#..#..
+###..##.#.
+#.##...#.#
+.........#
+####..#...
+..#..##.##
+.##.##.#..
+.##......#
+
+Tile 2791:
+##.#.###.#
+#.......##
+#....#...#
+##....##..
+#...##..#.
+#..#..#...
+###..#....
+....######
+##.#.#..##
+.....#....
+
+Tile 1879:
+##..###.##
+##.......#
+.#..#.##..
+.##.......
+.#..#....#
+#.#......#
+##......##
+...#....##
+#.##..####
+.##...###.
+
+Tile 2029:
+..#...##..
+..##..#.##
+.##....#..
+#...#...#.
+#.......##
+......#.##
+........#.
+##.#..#...
+..#.......
+...#...###
+
+Tile 1451:
+.........#
+....#...#.
+##..#....#
+.....#....
+.....#....
+....#.....
+#.........
+...#.#...#
+.......#.#
+.#####.#.#
+
+Tile 1091:
+#...#.#..#
+#.#......#
+#........#
+....##...#
+#..#.#....
+#.......##
+...#.....#
+#.........
+##.....##.
+..#.#..##.
+
+Tile 3343:
+#.#.#...##
+#..#......
+#......#..
+..#..#..##
+##.##.####
+#...#.#..#
+..........
+.##..#...#
+..#...#..#
+..######.#
+
+Tile 3299:
+##.#..#..#
+..##..#...
+....##...#
+##.....#..
+#.#.#..#..
+........##
+##........
+##.##.#..#
+####.#.#..
+........##
+
+Tile 1873:
+#..#...#.#
+##..##....
+#...##.#.#
+..##.###..
+.##....#..
+.#.......#
+#.......#.
+.#......##
+#........#
+#..#..#...
+
+Tile 2741:
+.#...##.#.
+#......#..
+##........
+..#..#....
+.####.##..
+......#...
+...#..#..#
+..........
+#.........
+.#####.#.#
+
+Tile 1907:
+#...##.#..
+....#...#.
+...#..#...
+..##..#.#.
+.#.#......
+###......#
+#........#
+..##..####
+...#.....#
+##..#..##.
+
+Tile 1019:
+.###.#..#.
+##........
+.###....##
+...#..#.#.
+....###..#
+.#.#.#..##
+..##......
+#.#....#..
+..#..#...#
+#.#.##..##
+
+Tile 3469:
+.#.#.###.#
+###.......
+..#..#..#.
+.#.#.....#
+.#.##.##..
+##.##...#.
+.###.....#
+.##..#...#
+#.##.#..#.
+.###.#####
+
+Tile 3067:
+...#.####.
+#...#.#...
+.#.....#..
+....#.#...
+#....##..#
+#.........
+#.#..##..#
+#.........
+#........#
+.....##.##
+
+Tile 3121:
+#.####..##
+#..#....#.
+.#........
+#.#...#.#.
+#.#.#....#
+##.......#
+...#.#...#
+#...##.#..
+.#......#.
+#...#.#.##
+
+Tile 1543:
+#.####.##.
+.#..#...##
+###.#...#.
+##.#.#...#
+#.##...#.#
+.......#.#
+.....#..##
+..#.....#.
+..........
+..#..###.#
+
+Tile 2089:
+##.......#
+..#..##.##
+##...#....
+......#..#
+#...###..#
+#...#....#
+##..##.#..
+.....##..#
+#.......##
+#...######
+
+Tile 2153:
+###..#...#
+##.#.#....
+.#........
+###.##.#..
+.##..#....
+##....#.#.
+#..#..#...
+...#.##...
+.........#
+.#..#.....
+
+Tile 2347:
+..##.####.
+#.#.##....
+.##....#.#
+##...#....
+.#...#...#
+..#.......
+.........#
+#.........
+.....####.
+.##...#.#.
+
+Tile 1087:
+..#.##..##
+#...#.#..#
+#.####...#
+#....#..##
+#...#....#
+#.....#...
+........#.
+.###......
+..##.....#
+#..#.#..#.
+
+Tile 2423:
+..####.###
+...#..#..#
+....####.#
+#...##...#
+#..##....#
+#..#.#..##
+##..#.#.##
+..#...#...
+###..##.#.
+...##.#..#
+
+Tile 3923:
+......###.
+#..#....#.
+#.##..#..#
+##.....#..
+.#...#..##
+....#..#..
+#...#....#
+..#......#
+##..#.#...
+.#....#..#
+
+Tile 3947:
+.#.###...#
+#...#....#
+..#..#...#
+...##.....
+...#.....#
+#..##....#
+.......#..
+#........#
+#.....#...
+#..######.
+
+Tile 3833:
+....##.##.
+...#.##..#
+##....##.#
+#....#....
+#...#.....
+#..#..#..#
+..#..#....
+#.....#..#
+.#....###.
+#.#.######
+
+Tile 2339:
+.##.#.##..
+#.#.......
+#.#....#..
+.#.#...#..
+#.###...##
+#.##....##
+...#.....#
+...##..#.#
+###.....#.
+##.#..##.#
+
+Tile 2221:
+#.##.##..#
+..#.......
+#.......#.
+#.....#..#
+...#..####
+..#....#..
+#..#......
+#......#.#
+#.#.#.#..#
+...##.##.#
+
+Tile 3319:
+....#..##.
+...##..###
+#........#
+##.##..#..
+..##..#.#.
+#...#.....
+......#...
+##.#......
+.#.##..#.#
+#...#.#.#.
+
+Tile 3511:
+#..##.####
+..#.......
+#..##.....
+#.#..#..#.
+...##.#.#.
+##......#.
+...#...#.#
+#..##.##.#
+.###....#.
+#.######..
+
+Tile 3677:
+#.....##..
+..#..##...
+#.##.#..##
+##.#...#.#
+.#......#.
+..#..#....
+.#.#.#...#
+..#.......
+..#......#
+......#.#.
+
+Tile 3919:
+##...##.#.
+..#.##..#.
+#...#....#
+.#..#.#...
+#.#...#...
+......###.
+.....###.#
+#.#.....##
+.###.#...#
+#....#####
+
+Tile 2879:
+#....##..#
+.#.##...#.
+####.#.##.
+##...###..
+.#......#.
+#..###...#
+#........#
+......#.##
+..#.#....#
+...###..#.
+
+Tile 3613:
+.####....#
+....#...##
+#.##.#....
+#.#....#..
+##....#..#
+##...###.#
+.#....#..#
+#.....#...
+##........
+#.#...##..
+
+Tile 1523:
+.#.##.#.##
+#.####.###
+......#...
+#.....##.#
+###.##....
+..#...###.
+......#.##
+#....#....
+#...#.##..
+##....#...
+
+Tile 2111:
+##..##..#.
+.##......#
+...#.##...
+......#..#
+#.####..##
+#.####...#
+#......##.
+...#.#.###
+#..##....#
+....#.#.#.
+
+Tile 2539:
+..##.##.#.
+#.....#...
+....#.#.#.
+.....#..#.
+..#..####.
+...####..#
+..........
+......#..#
+...#####.#
+..##..####
+
+Tile 1459:
+....#.#..#
+#...##...#
+...##.#...
+.##..#.###
+.#...##..#
+....#.#..#
+#..#..#...
+#.#.#..#..
+#.#.......
+#.##....##
+
+Tile 1193:
+..#.#..#..
+.#....#...
+#..#.....#
+..........
+.....#.#.#
+#.#..#.#.#
+........#.
+.......##.
+#.#...#...
+.#####.##.
+
+Tile 2591:
+.###...##.
+.###....##
+###...#.##
+..##.....#
+........##
+.........#
+#..#..#..#
+..#.....##
+..#.#..##.
+#########.
+
+Tile 3571:
+##.......#
+....#.....
+##.##..#..
+.#...#...#
+...##..###
+##.##...##
+.....#.#..
+...##.#...
+#..##.#...
+#..#..#.#.
+
+Tile 3203:
+.#...#.###
+.#.#.#...#
+.#......##
+#.#..#..#.
+##.##.#.#.
+.#..#.#...
+...##.....
+.#..#..###
+#.##....##
+#.#...###.
+
+Tile 3739:
+#...##.#.#
+...##..#.#
+..#.......
+##........
+##......#.
+#....#.##.
+.#..####..
+...#...#.#
+.....##..#
+#..####...
+
+Tile 3109:
+...####..#
+#.#..#...#
+..#....#.#
+##.#.....#
+#....#.#..
+..#.....##
+.....#.#..
+...##....#
+.#.....#.#
+.#....#.#.
+
+Tile 3019:
+##.##..###
+.#.....#.#
+.#....#..#
+#.#.#....#
+....#.....
+#.....#...
+...#.#....
+####.##.##
+....#.....
+##.....###
+
+Tile 3467:
+#.#####.#.
+#...#....#
+.....###..
+.#.#.##.##
+#...#...#.
+....##...#
+.#..#.....
+#...#...##
+....##...#
+.#...#.#.#
+
+Tile 3709:
+.#..#.##..
+..#.......
+#.....#...
+..##..#...
+...#...###
+#.....####
+#..#.....#
+#...#..#..
+#..#.....#
+##.#.#..#.
+
+Tile 2843:
+#...#..#.#
+##.##.#...
+....#.....
+#...#...##
+#......#..
+#.#......#
+#.....###.
+#.#......#
+...##.....
+#.###.#...
+
+Tile 3061:
+#...#.##.#
+#..#....##
+..#.....##
+.#.#..#..#
+#......#..
+##....#..#
+##.#.....#
+.....#.##.
+.#.##.#..#
+##.##.#..#
+
+Tile 2731:
+..#....##.
+.#..##....
+##.....#.#
+........#.
+.#.......#
+#...#.....
+#..#......
+.#..#####.
+#..###.#.#
+##.#######
+
+Tile 1291:
+###...##..
+....#....#
+..#.##.###
+##....##..
+...#.#...#
+#..#.#...#
+##..#.#...
+#..#..##.#
+.....#..#.
+###.#..#..
+
+Tile 1237:
+...#...#..
+#####.....
+....#....#
+#.#..##...
+...##....#
+#.#......#
+.##.......
+.##.....##
+.....##.##
+##.#.#.#.#
+
+Tile 2797:
+.#..#.##.#
+.####....#
+####.....#
+#.##...#..
+#...#...##
+...#.....#
+...###....
+.#....#..#
+.........#
+.###.#.#..
+
+Tile 3209:
+##..##.###
+.......###
+##.....#.#
+#.#.....#.
+.#...#...#
+#...###.##
+.#..##..##
+....#.###.
+..#...####
+.#####..#.
+
+Tile 2657:
+##..##.#.#
+....#.#...
+....#.#...
+..##..##.#
+.##...####
+.#.#.##..#
+..........
+#........#
+.......###
+.##...#..#
+
+Tile 2903:
+#.#.######
+.###..#...
+..##...#.#
+...#......
+..#.....##
+.#....#...
+.#..#...#.
+##..##...#
+#.#......#
+..###.##.#
+
+Tile 1361:
+..#.##.#.#
+.#...#...#
+...#...#..
+....#...#.
+...#.#.#.#
+...#..#...
+.#.##.##.#
+..........
+##.#...###
+...#..#.#.
+
+Tile 3863:
+...#....##
+...##...#.
+.......###
+....#.....
+...##...#.
+##.....#..
+#.......##
+.......#.#
+.....#.#.#
+..#..####.
+
+Tile 1013:
+....#.....
+#.##.##...
+#..##.#...
+#....#....
+####...###
+.........#
+..#.....#.
+#..#.#....
+...###.#.#
+.##...####
+
+Tile 2267:
+#......#..
+#.#####...
+####....#.
+#...#.....
+#...#...#.
+..#.###..#
+..#.......
+..#..#...#
+#.##.##...
+.#...#....
+
+Tile 3581:
+#..#.#.###
+...###.#.#
+.........#
+#..#....##
+........#.
+...#.#....
+......#.##
+##..#..#..
+...#.###.#
+###..##.##
+
+Tile 3797:
+...##.#..#
+.....#.#..
+.....#...#
+#.....#.##
+##....##.#
+#.....#...
+#..#..##..
+#.....#.##
+#.#...###.
+..#.##..#.
+
+Tile 2521:
+#.#.###.#.
+.#.....#.#
+#...#.....
+..#.......
+.#.....#..
+#.###.#...
+#....##...
+.#....##..
+..#.#.#.#.
+##.#.#..##
+
+Tile 2927:
+..###..#..
+#...#.....
+#.##.#....
+##....#.#.
+#.#...##.#
+###....###
+#...#....#
+..#.#.#.##
+..#......#
+...#.##...
+
+Tile 3499:
+##..###.##
+#.#.#...##
+....#.....
+....#.#...
+...#.#.#.#
+.....##.#.
+.....#.#..
+...#.###.#
+......#.#.
+..#.#####.
+
+Tile 2053:
+.#.##.##..
+###.##.#..
+#.#####..#
+....#.....
+#..##.#..#
+.#...#...#
+....##...#
+#.....#...
+###..##...
+.#.#...##.
+
+Tile 1033:
+######.#..
+#...##...#
+#.....#.#.
+#.#.#....#
+...#...#.#
+###..#...#
+.#..#...#.
+...##.#..#
+....#.#...
+.#..###.#.
+
+Tile 1109:
+###.#.#..#
+##..##....
+.....#..#.
+#....#..##
+.#.#.##..#
+#...###..#
+#...#.....
+###.##...#
+#.#.#.#...
+####..#.#.
+
+Tile 2333:
+##.#.#..#.
+#..##...##
+.....##..#
+.#.##..#..
+.##.#.####
+...#..##.#
+.........#
+###..#....
+#.#...##.#
+#...####..
+
+Tile 2713:
+.###.####.
+...#...#.#
+....#...##
+#..#...#.#
+#.#.......
+....###.#.
+##.#...#.#
+#..##.#..#
+#.#.#.....
+..#.##.#.#
+
+Tile 2141:
+#####..#..
+..#..#....
+#.......#.
+.#......#.
+#...##....
+......##.#
+#.#...#..#
+.#......##
+...#....##
+##....#.#.
+
+Tile 3607:
+...#.##..#
+#......##.
+.##.##.#.#
+..##....##
+...##..###
+...#......
+...#..#.##
+##..#...#.
+.#.#..#.##
+.#..#.#.#.
+
+Tile 3691:
+.#.####..#
+###..#..#.
+...#......
+#..#...#.#
+#..#..#..#
+..#.#....#
+#.#......#
+....#....#
+#....##..#
+.#..##.###
+
+Tile 2237:
+#.#.#...#.
+#.#.##....
+.#..##...#
+...#..#..#
+.#.....#..
+##..###...
+.#..#..#..
+#.###.....
+.#..#....#
+.#.#.###..
+
+Tile 1483:
+...####.##
+#....###..
+....#.#..#
+.###......
+#..#.#.#..
+.#...#....
+.#.......#
+.#..#..#..
+#.#..###.#
+#...####..
+
+Tile 1697:
+.#.####...
+......#.##
+.......##.
+##.##.##..
+..##..#.##
+##.##....#
+#..#.#..##
+...#....#.
+..##...#..
+.###.####.
+
+Tile 1949:
+...#.##..#
+#....#....
+.........#
+..#..#...#
+..........
+...#....#.
+#.#.#....#
+.###....#.
+##..#.###.
+..#.#.....
+
+Tile 2269:
+.#...##...
+.##...#...
+.#.......#
+.#.#...#..
+.#.##.#...
+#..#######
+##.#.#...#
+###.......
+.....#.#..
+.##.#.##..
+
+Tile 1097:
+.##..##.#.
+.#........
+....#...##
+#...#....#
+....#....#
+......#..#
+..####....
+#..#..#..#
+#.#..##..#
+.....##...
+
+Tile 1307:
+#.#..##..#
+##..#..#..
+#.#..##..#
+..#......#
+#.#..##..#
+#..#.#.#..
+..#.#.#..#
+......#..#
+##.......#
+####.###..
+
+Tile 3323:
+..##.##..#
+##....####
+##.....###
+..#......#
+.#.#.#..#.
+#......#.#
+......##.#
+..##..##.#
+##........
+...#..#..#
+
+Tile 2467:
+.#####.#..
+...#....##
+#...###...
+##........
+.........#
+....#....#
+.#.#..#.#.
+...#.....#
+#...##..##
+...#.###..
+
+Tile 2389:
+..##.#...#
+....#....#
+..##.###..
+.###...###
+#.#.....#.
+......##..
+..#.#...##
+#....#.#.#
+.......#..
+#..#..#.##
+
+Tile 2633:
+####...#..
+.#..#..#.#
+#.#.#.#..#
+.##.#...##
+...#....##
+##.#.#...#
+#####...##
+#....###.#
+#.....#...
+.##.##.#..
+
+Tile 2473:
+...##...##
+....#.#..#
+..####.#.#
+..#.#..#..
+#...#...#.
+...#....##
+#.#.....##
+.....#....
+#..#..##.#
+.#.###....
+
+Tile 2243:
+.#.##.#.#.
+......#.#.
+.#.......#
+#.#..#...#
+....#..#.#
+.##..#.#..
+.#....#..#
+.....#...#
+##.......#
+..##.#..##
+
+Tile 3547:
+####.###.#
+#...#....#
+#...#.#..#
+.#.....#.#
+##.....###
+.....###..
+.....#..##
+#..#.....#
+..#...#..#
+.#########
+
+Tile 2837:
+#.##.#...#
+#.#..#...#
+..#......#
+#..###.#.#
+##.......#
+#.#......#
+#......##.
+#..##.#.##
+#.#.......
+###.#.#.#.
+
+Tile 3727:
+.###.#...#
+..#..#.#..
+.#..#....#
+...#...#.#
+####......
+.#...#..##
+##.....###
+.....#...#
+....###.#.
+..#..#....
+
+Tile 3391:
+.##..###..
+####..##.#
+#...##....
+.#...#..##
+......#...
+#.##.#.#.#
+..#.#.....
+..#.#....#
+#.........
+...##.##..
+
+Tile 3529:
+.#.###..#.
+##.##.....
+..#.....#.
+#...###..#
+#.#.#....#
+.#.#.##...
+###..#...#
+.#..#...#.
+...##..#.#
+.#.#..####
+
+Tile 3181:
+.#.#####..
+#..#..#...
+#..#..##..
+#.#.....##
+##....##..
+.#.....###
+..##....##
+#.#......#
+....##....
+###.##...#
+
+Tile 1429:
+..########
+#..##.#...
+...#.#..##
+..#......#
+.....#....
+#......#..
+#....#.#..
+.#...#..#.
+#....#..#.
+..###...#.
+
+Tile 3907:
+##....##..
+..#.#.##.#
+.###....##
+....#..#.#
+#.##......
+...#......
+###...#.##
+...##....#
+..#.#...#.
+##.#.#.#..
+
+Tile 2609:
+..##.##...
+#.##...###
+.#.......#
+.#........
+#.##.##.##
+...#....#.
+........#.
+......##.#
+####......
+#.#...####
+
+Tile 1597:
+##....##.#
+#..#...###
+.##......#
+#.#...##..
+......####
+#..#.....#
+...#...#..
+##...#....
+##........
+.#.#..##..
+
+Tile 1567:
+#.#.##....
+........#.
+#......#..
+......#...
+##.....#.#
+#...##....
+#........#
+#...##...#
+.#...#.#..
+..##.#..##
+
+Tile 3671:
+.###..####
+#..#..##..
+#....#...#
+..##.#...#
+##...#...#
+#..###...#
+#..#.#..##
+..........
+.........#
+###..#..##
+
+Tile 2909:
+#...######
+#..#.#....
+.#...#..##
+...##..#.#
+....#.#...
+#.##..#.##
+##.......#
+##.#......
+#.......##
+.#..#.#..#
+
+Tile 2297:
+...#.#....
+.#......#.
+###...##..
+.###.....#
+##.#.#....
+..#.......
+#......#..
+##......#.
+.#........
+#..#.####.
+
+Tile 2129:
+#.........
+..#.#....#
+##.......#
+#........#
+...#.#.#.#
+#........#
+.#.#.#...#
+...##.##..
+#.........
+##.#.###.#
+
+Tile 2383:
+##...#..##
+##.###....
+..#...#..#
+##........
+....#.#.#.
+#.#....#..
+...#.....#
+##..##.#..
+.....##.##
+##..##..#.
+
+Tile 1327:
+.#.##..##.
+##.....#.#
+#..#.#....
+........##
+..#.......
+#.......#.
+#..#...#.#
+#.#...#...
+#.#.......
+...###.#..
+
+Tile 3313:
+#.#.....#.
+#...#.#...
+.....###..
+.....#....
+......#..#
+#........#
+.#.......#
+#...#.#...
+.....#..#.
+####....#.
+
+Tile 3041:
+##..#.#.##
+#.......#.
+#.#.#.#...
+.#.##..##.
+#..#......
+..##..###.
+#.##....##
+#.....#...
+..#.......
+.......##.
+
+Tile 1951:
+#..##.###.
+.#..#.##.#
+###.....#.
+#.#.......
+##....##.#
+#.....#.##
+........#.
+.#.....#.#
+.###.....#
+..#...##..
+
+Tile 1861:
+.##..#..##
+#..#.#...#
+..#.#.....
+......#...
+.......#.#
+#.#...#..#
+.#...#..##
+#.#.......
+#..##.##..
+.......##.
+
+Tile 3361:
+####.##.##
+##.#.##...
+.........#
+#.....#...
+##....#.#.
+..#......#
+.#.#....##
+##.#.#.#..
+......#...
+.....#.##.
+
+Tile 3449:
+..##.#.#..
+#..#...#..
+.....##...
+#........#
+.......##.
+.##.#....#
+#..##..#.#
+........#.
+.........#
+#.#..#...#
+
+Tile 3217:
+#..#...#..
+#..#.#.#.#
+.......#..
+#....#..#.
+#........#
+#...#...#.
+##...#...#
+.##.......
+##........
+...#.##.#.
+
+Tile 3187:
+...#.###..
+..#.##.###
+#.#.......
+#..##..#..
+#.##....##
+#.###.####
+...#.#....
+..........
+#.........
+.##....#.#
+
+Tile 3719:
+.####.#.##
+.#...#...#
+##....###.
+#.##..#...
+....##...#
+..#.#.##.#
+.......#..
+.....##.##
+#.....##.#
+#.##.#..#.
+
+Tile 3967:
+.#..#.#.#.
+#.#.#....#
+.#....#...
+#.....#...
+.......#..
+#.........
+.#..#.....
+#..#......
+..#..#.###
+...####.##
+
+Tile 1373:
+...#.##.##
+#.......##
+##........
+......###.
+#....#...#
+...#...#..
+#.#.###...
+#.#.....##
+#...#....#
+...#.#...#
+
+Tile 2833:
+...#.#...#
+...#..#..#
+.##.#.##..
+#..#...#.#
+##.##.#...
+..........
+....#..#..
+#.#..##..#
+#......#..
+..##..###.
+
+Tile 2543:
+#.#..#....
+.........#
+...#....##
+..#......#
+...#.#....
+#....#.#..
+#.....##.#
+#..#...###
+###.....##
+###.##...#
+
+Tile 3389:
+......###.
+#.###.##..
+..##.....#
+#.#..#..#.
+##....#.#.
+##.#...#.#
+.##.....#.
+.#.#...#..
+#..##..#..
+#####.#...
+
+Tile 2039:
+....##...#
+#......##.
+.##....#..
+#.....#..#
+#####...#.
+#..##...##
+.....##.##
+#..#.##..#
+#..####.#.
+#.#.###.#.
+
+Tile 3701:
+########..
+#....#...#
+#..#..#.##
+#......#..
+.....####.
+#.....#..#
+#.........
+...#.#.#..
+......#.#.
+#####.###.
+
+Tile 3407:
+#...##.#..
+##.###..##
+#.#..#..#.
+.#..#.....
+..##.....#
+#..##.....
+#...#..#.#
+.....#.#.#
+.#.#......
+##.#.##.#.
+
+Tile 3793:
+.##.####.#
+.#.#.#...#
+.#...#.#.#
+#...#.#.##
+.#....#.#.
+..#..#...#
+.##.......
+.##.....##
+##..##....
+....##.##.
+
+Tile 2851:
+....#####.
+......##..
+..#.....#.
+#.....#..#
+###...####
+#.........
+#..##...##
+#..###..##
+#.###.#.##
+####..##..
+
+Tile 1913:
+##.#.#...#
+.....#.#..
+#...#.##.#
+.#...###..
+...##.....
+.#.#.#.###
+.#.#......
+......#...
+.#...#...#
+..#.#.#..#
+
+Tile 3457:
+#.#.#.##.#
+.#..#...#.
+.###..#..#
+#.#....#.#
+.#.....##.
+....#..#..
+..#...##.#
+##........
+###....#..
+...#..##.#
+
+Tile 2969:
+##.#..####
+####...##.
+......#...
+..##..#.##
+..#....#.#
+..#..#..#.
+#......#..
+.....#..##
+#.#.......
+.#...#.##.
+
+Tile 1303:
+##.#.#####
+..##.##..#
+....#..#.#
+##........
+#..#....#.
+..##..#.##
+..##...##.
+#...#.....
+..###..#..
+..##.#.###
+
+Tile 1279:
+.##.#.#...
+.....##.#.
+#..#.....#
+.....#..#.
+....##.#..
+........#.
+#....#....
+#...#....#
+#......#.#
+.####...#.
+
+Tile 3593:
+#...##.#.#
+..#.....##
+##..#....#
+....#.#...
+..#.......
+.#.#...#..
+..#....#.#
+..##.....#
+.#...#....
+..#####.#.
+
+Tile 1231:
+.#.###..##
+#...##.#.#
+..#....#..
+#........#
+..##..#.#.
+#........#
+........#.
+#.......#.
+#.#.#..#..
+.#....###.`
 }
