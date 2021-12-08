@@ -1,5 +1,4 @@
 import { readFileSync } from 'fs';
-import { listenerCount } from 'process';
 
 const getData = (): Array<string> => {
     return readFileSync('./inputs/day-08.txt', 'utf8')
@@ -7,29 +6,19 @@ const getData = (): Array<string> => {
         .split('\n');
 }
 
-const data: Array<string> = getData();
+const getEasyDigitsCount = ((data: Array<string>): number => {
+    const easyDigitLengths: Set<number> = new Set([2, 3, 4, 7]);
 
-let easyDigitsCounter: number = 0;
-
-data.forEach((row: string) => {
-    const secondPart: string = row.split(' | ')[1];
-    secondPart.split(' ').forEach((combination: string) => {
-        if(combination.length === 2 
-            ||combination.length === 3 
-            || combination.length === 4 
-            || combination.length === 7) {
-            
-            easyDigitsCounter += 1;
-        }
-    });
+    return data.reduce((counter: number, row: string): number => {
+        const outputValues: Array<string> = row.split(' | ')[1].split(' ');
+        
+        return counter += outputValues.reduce((innerCounter: number, signal: string): number => {
+            return innerCounter += (easyDigitLengths.has(signal.length)) ? 1 : 0;
+        }, 0);
+    }, 0);
 });
 
-console.log(`Answer for part 1: ${easyDigitsCounter}`);
-
-let outputValuesSum: number = 0;
-
-data.forEach((row: string) => {
-    const splitRow: Array<string> = row.split(' | ');
+const decode = ((signals: Array<string>): Map<string, string> => {
     const combinationMapping: Map<string, string> = new Map();
 
     let oneCombination: string;
@@ -37,7 +26,7 @@ data.forEach((row: string) => {
     let fourCombination: string;
 
     // Get easy, unique digits, so 1, 4, 7 and 8.
-    splitRow[0].split(' ').forEach((combination: string) => {
+    signals.forEach((combination: string) => {
         if(combination.length === 2) { 
             combinationMapping.set(combination.split('').sort().join(''), '1');
             oneCombination = combination; 
@@ -68,27 +57,18 @@ data.forEach((row: string) => {
      */
 
     const segmentsMapping: Map<string, string> = new Map();
+
     sevenCombination.split('').forEach((letter: string) => {
         if(!oneCombination.includes(letter)) {
             segmentsMapping.set('0', letter);
         }
     });
 
-    // segmentsMapping.set('2 || 5', oneCombination.charAt(0));
-    // segmentsMapping.set(oneCombination.charAt(1), '2 || 5');
-    
-    // fourCombination.split('').forEach((letter: string) => {
-    //     if(!oneCombination.includes(letter)) {
-    //         segmentsMapping.set(letter, '1 || 3');
-    //     }
-    // });
-
-    // Get 6-characters-long combinations, so 0, 6 and 9.
-
     let nineCombination: string;
     let sixCombination: string;
 
-    splitRow[0].split(' ').forEach((combination: string) => {
+    // Get 6-characters-long combinations, so 0, 6 and 9.
+    signals.forEach((combination: string) => {
         if(combination.length === 6) {
             let oneSplit = oneCombination.split('');
             let fourSplit = fourCombination.split('').filter((letter: string) => {
@@ -124,58 +104,51 @@ data.forEach((row: string) => {
         }
     });
 
-    let fiveLikeCombination: string = nineCombination
+    const fiveCombination: string = nineCombination
         .replace(segmentsMapping.get('2'), '')
         .split('')
         .sort()
         .join('');
 
-    let threeLikeCombination: string = nineCombination
+    combinationMapping.set(fiveCombination, '5');
+
+    const threeCombination: string = nineCombination
         .replace(segmentsMapping.get('1'), '')
         .split('')
         .sort()
         .join('');
 
-    let twoLikeCombination: string = sixCombination
+    combinationMapping.set(threeCombination, '3');
+
+    const twoCombination: string = sixCombination
         .replace(segmentsMapping.get('1'), segmentsMapping.get('2'))
         .replace(segmentsMapping.get('5'), '')
         .split('')
         .sort()
         .join('');
 
-    // Get 5-characters-long combinations, so 2, 3 and 5.
-    splitRow[0].split(' ').forEach((combination: string) => {
-        if(combination.length === 5) {
-            let sortedCombination: string = combination.split('').sort().join('');
+    combinationMapping.set(twoCombination, '2');
 
-            switch(sortedCombination) {
-                case fiveLikeCombination:
-                    combinationMapping.set(sortedCombination, '5');
-                    break;
-                
-                case threeLikeCombination:
-                    combinationMapping.set(sortedCombination, '3');
-                    break;
-
-                case twoLikeCombination:
-                    combinationMapping.set(sortedCombination, '2');
-                    break;
-            }
-        }
-    });
-
-    console.log(combinationMapping);
-
-    let outputValue: string = '';
-
-    splitRow[1].split(' ').forEach((digit: string) => {
-        outputValue += combinationMapping.get(digit.split('').sort().join(''));
-    });
-
-    console.log(outputValue);
-    console.log();
-
-    outputValuesSum += Number(outputValue);
+    return combinationMapping;
 });
 
-console.log(outputValuesSum);
+const getOutputValuesSum = ((data: Array<string>): number => {
+    return data.reduce((sum: number, row: string): number => {
+        const splitRow = row.split(' | ');
+        const signals: Array<string> = splitRow[0].split(' ');
+        const signalsMapping: Map<string, string> = decode(signals);
+
+        const outputValue: Array<string> = splitRow[1].split(' ');
+        const decodedOutputValue: string = outputValue.reduce((finalValue: string, signal: string): string => {
+            const formattedSignal: string = signal.split('').sort().join('');
+            return finalValue += signalsMapping.get(formattedSignal);
+        }, '');
+    
+        return sum += Number(decodedOutputValue);
+    }, 0);
+});
+
+const data: Array<string> = getData();
+
+console.log(`Answer for part 1: ${getEasyDigitsCount(data)}`);
+console.log(`Answer for part 2: ${getOutputValuesSum(data)}`);
