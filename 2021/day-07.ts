@@ -26,6 +26,37 @@ const getRequiredFuel = (start: number, end: number, mode: string): number => {
     }
 }
 
+const smartPart1 = (initialPositions: Array<number>): number => {
+    const length = initialPositions.length;
+
+    const median = (length % 2 === 0)
+        ? Math.floor((initialPositions[length / 2] + initialPositions[(length / 2) + 1]) / 2)
+        : initialPositions[(length + 1) / 2];
+
+    return initialPositions.reduce((requiredFuel: number, currentPosition: number) => {
+        return requiredFuel += Math.abs(median - currentPosition);
+    }, 0);
+}
+
+const smartPart2 = (initialPositions: Array<number>): number => {
+    const length = initialPositions.length;0
+
+    const mean = Math.floor(initialPositions.reduce((sum: number, currentPosition: number) => sum += currentPosition, 0) / length);
+
+    const possibleAnswers: Array<number> = new Array();
+    for(let i: number = -1; i < 2; i += 1) {
+        possibleAnswers.push(
+            initialPositions.reduce((requiredFuel: number, currentPosition: number) => {
+                return requiredFuel += (((mean + i) - currentPosition)*(mean-currentPosition) + Math.abs(mean - currentPosition)) / 2;
+            }, 0)
+        )
+    }
+
+    console.log(possibleAnswers);
+
+    return possibleAnswers.sort((a, b) => a - b)[0];
+}
+
 const initialPositions: Array<number> = getInitialPositions().sort((a, b) => a-b);
 const beginning = initialPositions[0];
 const end = initialPositions[initialPositions.length - 1];
@@ -57,3 +88,6 @@ positionsWithRequiredFuel.forEach((requiredFuel: number, number: number) => {
 });
 
 console.log(numberWithLeastRequiredFuel);
+
+console.log(smartPart1(initialPositions));
+console.log(smartPart2(initialPositions));
