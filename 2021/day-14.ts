@@ -1,9 +1,10 @@
 import { readFileSync } from 'fs';
 
-const getPolymerTemplate = (): string => {
+const getPolymerTemplate = (): Array<string> => {
     return readFileSync('./inputs/day-14.txt', 'utf8')
         .replaceAll('\r', '')
-        .split('\n\n')[0];
+        .split('\n\n')[0]
+        .split('');
 }
 
 const getRules = (): Map<string, string> => {
@@ -22,35 +23,70 @@ const getRules = (): Map<string, string> => {
     return rulesMap;
 }
 
-const performInsertionStep = ((polymer: string, rules: Map<string, string>): string => {
-    let newPolymer: string = polymer.charAt(0);
+const getPolymer = ((template: Array<string>, rules: Map<string, string>, steps: number): Map<string, number> => {
+    let pairs: Map<string, number> = new Map();
+    for(let i: number = 0; i < template.length - 1; i += 1) {
+        const currentPair: string = `${template[i]}${template[i+1]}`;
+        const currentPairOccurrences: number = pairs.get(currentPair) || 0;
+        pairs.set(currentPair, currentPairOccurrences + 1);
+    };
 
-    for(let i: number = 0; i < polymer.length - 1; i += 1) {
-        newPolymer += rules.get(`${polymer.charAt(i)}${polymer.charAt(i+1)}`)
-            + polymer.charAt(i+1); 
+    for(let i: number = 0; i < steps; i += 1) {
+        let newPairs: Map<string, number> = new Map();
+    
+        pairs.forEach((pairOccurrences: number, pair: string) => {
+            const splitPair: Array<string> = pair.split('');
+    
+            if(rules.has(pair)) {
+                for(let k: number = 0; k < 2; k += 1) {
+                    const newPair: string = (k === 0) 
+                        ? `${splitPair[k]}${rules.get(pair)}` 
+                        : `${rules.get(pair)}${splitPair[k]}`;
+
+                    const newPairOccurrences: number = newPairs.get(newPair) || 0;
+                    newPairs.set(newPair, newPairOccurrences + pairOccurrences);
+                }
+            }
+        });
+    
+        pairs = newPairs;
     }
 
-    return newPolymer;
+    return pairs;
 });
 
-const getOccurrences = ((polymer: string): Map<string, number> => {
-    let splitPolymer = polymer.split('');
-    const occurrences: Map<string, number> = new Map();
-    splitPolymer.forEach((character: string) => {
-        const currentCharacterOccurrences = occurrences.get(character) || 0;
-        occurrences.set(character, currentCharacterOccurrences + 1); 
-    });
+const getResult = ((pairs: Map<string, number>, polymerTemplate: Array<string>): number => {
+    const characterOccurrences: Map<string, number> = new Map();
 
-    return new Map([...occurrences.entries()].sort((a, b) => a[1] - b[1]));
+    pairs.forEach((pairOccurrences: number, pair: string) => {
+        const splitPair: Array<string> = pair.split('');
+    
+        // just the first one, as second one will be always a part of another pair
+        const resultingCharacter: string = splitPair[0];
+        const resultingCharacterOccurrences = characterOccurrences.get(resultingCharacter) || 0;
+        characterOccurrences.set(resultingCharacter, resultingCharacterOccurrences + pairOccurrences);
+    });
+    
+    // additionally the last one as it is the second element of the last pair
+    const lastCharacter = polymerTemplate[polymerTemplate.length - 1];
+    const lastCharacterOccurrences = characterOccurrences.get(lastCharacter) || 0;
+    characterOccurrences.set(lastCharacter, lastCharacterOccurrences + 1);
+    
+    const sortedCharacterOccurrences: Map<string, number> = new Map(
+        [...characterOccurrences.entries()]
+        .sort((a, b) => a[1] - b[1]));
+
+    const mostCommonElementCount: number = Array.from(sortedCharacterOccurrences)[sortedCharacterOccurrences.size - 1][1];
+    const leastCommonElementCount: number = Array.from(sortedCharacterOccurrences)[0][1];
+    
+    return mostCommonElementCount - leastCommonElementCount;
 })
 
-let polymer = getPolymerTemplate();
-const rules = getRules();
+const polymerTemplate: Array<string> = getPolymerTemplate();
+const rules: Map<string, string> = getRules();
 
-for(let i: number = 0; i < 40; i += 1) {
-    polymer = performInsertionStep(polymer, rules);
-}
+let polymer: Map<string, number> = getPolymer(polymerTemplate, rules, 10);
+console.log(`Answer for part 1: ${getResult(polymer, polymerTemplate)}`);
 
-const occurrences: Map<string, number> = getOccurrences(polymer);
-
-console.log(Array.from(occurrences)[occurrences.size - 1][1] - Array.from(occurrences)[0][1]);
+polymer = getPolymer(polymerTemplate, rules, 40);
+console.log(`Answer for part 2: ${getResult(polymer, polymerTemplate)}`);
